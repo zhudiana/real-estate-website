@@ -1,0 +1,125 @@
+.nav-logo {
+    
+}
+
+.little-text {
+    color: #d0b483;
+}
+
+figcaption span {
+    font-size: 43px;
+    font-weight: 400;
+    color: #0b1b35;
+    fill: #0b1b35;
+    font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+figcaption h3 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    /* width: 300; */
+    text-shadow: 0 0 168px rgba(0, 0, 0, 9);
+    /* text-align: center; */
+}
+figcaption h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 59px;
+    font-family: 'Barlow', sans-serif;
+    width: 300;
+    text-shadow: 0 0 168px rgba(0, 0, 0, 9);
+    text-align: center;
+}
+
+.blur-bg {
+   margin-top: -17px;
+    opacity: 0.5;
+    height: 600px;
+}
+.upper-image {
+    position: absolute;
+    top: 170px;
+    left: 580px;
+    width: 300px;
+    height: 293px;
+    cursor: pointer;
+}
+
+.elementor-third-column {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    width: 445px;
+    height: 75px;
+}
+
+.elementor-paragraph {
+    color: #0b1b35;
+    font-weight: 700;
+    width: 391px;
+    height: 98px;
+}
+
+/* figcaption p {
+    width: 391px;
+    height: 98px;
+} */
+
+ .elmentor-text {
+    color: #d0b483;
+    background-color: #fff;
+    width: 280px;
+    height: 16px;
+    margin-top: 175px;
+    cursor: pointer;
+}
+
+.elementor-body-three {
+   max-width: 100%;
+   height: auto;
+}
+.under-image-body-3 {
+    margin-top: -17px;
+    height: 600px;
+    opacity: 1;
+}
+.upper-image-body3 {
+    position: absolute;
+    top: 1450px;
+    left: 450px;
+    width: 407px;
+    height: 305px;
+    cursor: pointer;
+}
+
+.elementor-body-three-title {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    top: 1400px;
+    left: 900px;
+    width: 445px;
+    height: 75px;
+}
+
+.elementor-paragraph-body-three {
+    color: #fff;
+    font-weight: 700; 
+    margin-top: -400px;
+    margin-left: 900px;
+}
+
+
+
