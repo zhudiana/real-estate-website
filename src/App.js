@@ -3,6 +3,8 @@ import Body1 from "./Components/Body/Body1";
 import Body2 from "./Components/Body/Body2";
 import Body3 from "./Components/Body/Body3";
 import Body4 from "./Components/Body/Body4";
+import Footer1 from "./Components/Footer/Footer1";
+import Form  from "./Components/Footer/Form/Form";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Body2 />
         <Body3 />
         <Body4 />
+        <Footer1 />
+        <Form />
     </div>
   );
 }
