@@ -10,7 +10,7 @@
      justify-content: center;
      align-items: center;
      font-size: 1.2rem;
-     margin-left: -12rem;
+   
 }
 
 .nav-logo {
@@ -39,6 +39,9 @@
     padding: 2rem 1rem;
 }
 
+.nav-menu-link {
+    margin-left: 3rem;
+}
 .nav-menu-link:hover {
     background-color:#163967;
     color: #fff;

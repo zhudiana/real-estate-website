@@ -9,9 +9,10 @@ const FormCallUs = ({submitForm}) => {
             validateInfo
             );
   return (
+      <div className="main-container">
         <div className="form-content-right">
             <form  className="form" onSubmit={handleSubmit}>
-                <h1>hello, fill the form</h1>
+                <h1 className="form-header">LET US CALL YOU</h1>
                 <div className="form-inputs">
                     <label htmlFor="username" className="form-label">
                        First Name 
@@ -82,6 +83,15 @@ const FormCallUs = ({submitForm}) => {
                             />
                             {errors.phonenumber && <p>{errors.phonenumber}</p>}
                 </div>
+                <div className="checkbox-input">
+                    <input 
+                        type="checkbox"
+                        name="confirm"
+                    />
+                    <label htmlFor="confirm" className="checkbox-label">
+                        I expressly consent to receiving electronic messages by My personel Data and the terms of use.
+                    </label>
+                </div>
 
                 <button className="form-input-btn"
                     type="submit">
@@ -89,6 +99,7 @@ const FormCallUs = ({submitForm}) => {
                 </button>
             </form>
         </div>
+    </div>
   )
 }
 
