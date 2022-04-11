@@ -1,10 +1,10 @@
-.nav-logo {
-    
-}
+
 
 /* body2 style*/
 .little-text {
     color: #d0b483;
+    font-family: "Barlow",Sans-serif;
+    text-transform: uppercase;
 }
 
 figcaption span {
@@ -13,7 +13,6 @@ figcaption span {
     color: #0b1b35;
     fill: #0b1b35;
     font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
-    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -25,10 +24,11 @@ figcaption h3 {
     color: #fff;
     font-family: 'Barlow', sans-serif;
     /* width: 300; */
-    text-shadow: 0 0 168px rgba(0, 0, 0, 9);
+    text-shadow: 1px 0 12px #000;
+    font-weight: 300;
     /* text-align: center; */
 }
-figcaption h1 {
+figcaption h2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,22 +37,25 @@ figcaption h1 {
     font-size: 59px;
     font-family: 'Barlow', sans-serif;
     width: 300;
-    text-shadow: 0 0 168px rgba(0, 0, 0, 9);
+    text-shadow: 1px 0 12px #000;
     text-align: center;
+    font-weight: 300;
 }
 
 .blur-bg {
    margin-top: -17px;
     opacity: 0.5;
     height: 600px;
+    
 }
 .upper-image {
     position: absolute;
     top: 170px;
-    left: 580px;
+    left: 540px;
     width: 300px;
     height: 293px;
     cursor: pointer;
+    /* align-items: center; */
 }
 
 .elementor-third-column {
@@ -77,11 +80,21 @@ figcaption h1 {
 
  .elmentor-text {
     color: #d0b483;
-    background-color: #fff;
+    background-color: transparent;
     width: 280px;
-    height: 16px;
-    margin-top: 175px;
+    margin-top: 170px;
+    
+}
+
+.elementor-text-btn {
+    border: 2px solid #d0b483;
+    background-color: white;
+    color: #d0b483;
+    padding: 14px 28px;
+    font-size: 15px;
     cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 .elementor-body-three {
@@ -100,6 +113,28 @@ figcaption h1 {
     width: 407px;
     height: 305px;
     cursor: pointer;
+}
+/* .little-text-container {
+    margin-top: -100opx;
+} */
+.elementor-body-three-little-text {
+    position: absolute;
+    color: #fff;
+    font-family: "Barlow",Sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    top: 1350px;
+    left: 900px;
+    width: 445px;
+    height: 75px;
+    text-decoration: none;
+    cursor:auto;
+}
+.little-text-two {
+    color: #fcdd18;
+    margin-bottom: 100px;
+
 }
 
 .elementor-body-three-title {
@@ -120,12 +155,27 @@ figcaption h1 {
     margin-left: 900px;
 }
 
+.elmentor-body3-text {
+    margin-left: 900px;
+    margin-top: 80px;
+}
+.elementor-body3-text-btn {
+    border: 2px solid #fcdd18;
+    background-color: rgba(252,221,24,0);
+    color: #fcdd18;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
 .body-four-image {
     display: flex;
     height: 350px;
     /* width: 3000px; */
     position: relative;
-    margin-top: 190px;
+    margin-top: 50px;
     /* margin-left: 70px; */
     background-position: top right; 
     background-position-x: right; 
@@ -139,25 +189,48 @@ figcaption h1 {
     
 }
 .body4-text {
-    
     position: absolute;
     top: 2050px;
     left: 30%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-family: 'Barlow', sans-serif;
+    width: 700px;
 }
 .body4-text1 {
-    font-weight: bolder;
-    width: 500px;
-    
+    font-weight: bolder;   
+    font-size: inherit;
+    width: 1000px;
+    margin-top: -10px;
 }
-.body4-text2 {
-    margin-top: 25px;
+h5 {
+    margin-top: 200px;
+    margin-left: 80px;  
 }
 .body4-text3 {
     margin-top: 25px;
+    color: #fff;
+    background-color: #233560 ;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color:#233560 ;
+    margin-left: 1000px;
+    width: 194px;
+    height: 39px;
+    text-align: center;
+    font-weight:500;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: inherit;
 }
+.body4-text3:hover {
+    cursor: pointer;
+    transition-duration: .5s;
+    transition-property: transform;
+    width: 210px;
+    height: 45px;
+    transition: all 0.3s ease-out;
+}
+
 
 
 

@@ -26,7 +26,7 @@ const Body2 = () => {
                   </div>
               </figcaption> 
               <div className="elmentor-text">
-                <span>View Luxury Apartments</span>
+                <span><button className="elementor-text-btn">View Luxury Apartments</button></span>
               </div>
               
            </div>

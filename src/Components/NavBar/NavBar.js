@@ -12,11 +12,13 @@ const NavBar = () => {
         <ul className="nav-menu">
           {MenuItems.map((item, index)=>{
             return(
-              <li key={index} className="nav-menu-link">
+              <li key={index} className="nav-menu-link" >
                 <a className={item.cName} href={item.url}>
                  {item.title}
                 </a>
               </li>
+             
+              
             )
           })}
         </ul>
