@@ -6,7 +6,6 @@ import Body4 from "./Components/Body/Body4";
 import Footer1 from "./Components/Footer/Footer1/Footer1";
 import Form  from "./Components/Footer/Form/Form";
 import Footer2 from "./Components/Footer/Footer2/Footer2";
-import { BrowserRouter as Router, Route , Switch} from 'react-router-dom';
 
 function App() {
   return (

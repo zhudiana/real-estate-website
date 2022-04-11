@@ -46,13 +46,13 @@
     margin-left: -50px;
 }
 
-
+/* 
 li a {
     text-decoration: none;
     font-weight: 400;
-}
+} */
 
-li a:hover {
+li:hover {
     /* background-color:#163967; */
     transition: all .2s linear;
     /* color: #fff; */
