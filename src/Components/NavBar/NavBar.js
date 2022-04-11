@@ -16,9 +16,7 @@ const NavBar = () => {
                 <a className={item.cName} href={item.url}>
                  {item.title}
                 </a>
-              </li>
-             
-              
+              </li>  
             )
           })}
         </ul>

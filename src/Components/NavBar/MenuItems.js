@@ -1,26 +1,26 @@
 export const MenuItems = [
     { title: 'ABOUT US', 
-        url: '#',
+        url: '../../Pages/AboutUs/AboutUs.js',
         cName: 'nav-Links'
     },
     { title: 'LEXURY LINES', 
-        url: '#',
+        url: '../../Pages/LuxuryLines/LuxuryLines.js',
         cName: 'nav-Links'
     },
     { title: 'STANDARD LINES', 
-        url: '#',
+        url: '../../Pages/StandardLines/StandardLines.js',
         cName: 'nav-Links'
     },
     { title: 'NEWS & BLOG', 
-        url: '#',
+        url: '../../Pages/News&Blogs/News&Blogs.js',
         cName: 'nav-Links'
     },
-    { title: 'METROPOLITAN DIFFERNECE', 
-        url: '#',
+    { title: 'METROPOLITAN DIFFERNCE', 
+        url: '../../Pages/MetropolitanDifference/MetropolitanDifference.js',
         cName: 'nav-Links'
     },
     { title: 'CONTACT US', 
-        url: '#',
+        url: '../../Pages/ContactUs/ContactUs.js',
         cName: 'nav-Links'
     }
 ]
