@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route,Routes } from "react-router-dom";
 import AboutUs from "./AboutUs/AboutUs";
 import ContactUs from "./ContactUs/ContactUs";
 import LuxuryLines from "./LuxuryLines/LuxuryLines";
@@ -10,14 +10,26 @@ import StandardLines from "./StandardLines/StandardLines";
 const Routers = () => {
   return (
  
-      <div>
-        <AboutUs />
-        <ContactUs />
-        <LuxuryLines />
-        <MetropolitanDifference />
-        <NewsBlogs />
-        <StandardLines />
-      </div>
+      
+        <Routes>
+          <Route path="AboutUs" element={<AboutUs />} />
+          <ContactUs />
+          <LuxuryLines />
+          <MetropolitanDifference />
+          <NewsBlogs />
+          <StandardLines />
+        </Routes>
+        
+    //   <Routes>
+    //   <Route path="/home" element={
+    //   <div>
+    //     hi, im home <Link to="/post"> Go to posts</Link>
+    //   </div>}
+
+    //   />
+    //   <Route path="/post"  element={<div>index </div>}/>
+    // </Routes>
+      
     
   )
 }

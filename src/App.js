@@ -6,11 +6,15 @@ import Body4 from "./Components/Body/Body4";
 import Footer1 from "./Components/Footer/Footer1/Footer1";
 import Form  from "./Components/Footer/Form/Form";
 import Footer2 from "./Components/Footer/Footer2/Footer2";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Routers from "./Pages/Routers";
 
 function App() {
   return (
     <div className="App">
-        <NavBar />
+        <BrowserRouter>
+            <NavBar />
+        </BrowserRouter>
         <Body1 />
         <Body2 />
         <Body3 />
@@ -18,8 +22,13 @@ function App() {
         <Footer1 />
         <Form />
         <Footer2 />
+        
+
     </div>
+                   
   );
 }
 
 export default App;
+
+ 

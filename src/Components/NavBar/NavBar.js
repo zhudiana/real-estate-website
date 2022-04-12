@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, Routes,Route } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
 import logo from "../../Images/logo.png";
 import './NavBar.css';
@@ -10,12 +10,69 @@ const NavBar = () => {
     <div className="NavbarItems">
         <img src={logo} alt="logo" className="nav-logo"/>
         <ul className="nav-menu">
-          <li className="nav-menu-link">ABOUT US</li>
-          <li className="nav-menu-link">LUXURY LINES</li>
-          <li className="nav-menu-link">STANDARD LINES</li>
-          <li className="nav-menu-link">NEWS & BLOG</li>
-          <li className="nav-menu-link">METROPOLITAN DIFFERNCE</li>
-          <li className="nav-menu-link">CONTACT US</li>
+          
+            <Routes>
+              <Route path="/" element={
+                   <Link to="/post" style={{ textDecoration: 'none' }}>
+                      <li className="nav-menu-link">ABOUT US</li>
+                   </Link>
+            }
+            />
+            {/* <Route path="/post"  element={<div>index </div>}/> */}
+            </Routes>
+            <Routes>
+              <Route path="/" element={
+                   <Link to="/post" style={{ textDecoration: 'none' }}>
+                      <li className="nav-menu-link">LUXURY LINES</li>
+                   </Link>
+            }
+            />
+            {/* <Route path="/post"  element={<div>index </div>}/> */}
+            
+            </Routes>
+            <Routes>
+              <Route path="/" element={
+                   <Link to="/post" style={{ textDecoration: 'none' }}>
+                      <li className="nav-menu-link">STANDARD LINES</li>
+                   </Link>
+            }
+            />
+            {/* <Route path="/post"  element={<div>index </div>}/> */}
+            </Routes>
+            <Routes>
+              <Route path="/" element={
+                   <Link to="/post" style={{ textDecoration: 'none' }}>
+                      <li className="nav-menu-link">NEWS & BLOG</li>
+                   </Link>
+            }
+            />
+            {/* <Route path="/post"  element={<div>index </div>}/> */}
+            </Routes>
+            <Routes>
+              <Route path="/" element={
+                   <Link to="/post" style={{ textDecoration: 'none' }}>
+                      <li className="nav-menu-link">METROPOLITAN DIFFERNCE</li>
+                   </Link>
+            }
+            />
+            {/* <Route path="/post"  element={<div>index </div>}/> */}
+            </Routes>
+            <Routes>
+              <Route path="/" element={
+                   <Link to="/post" style={{ textDecoration: 'none' }}>
+                      <li className="nav-menu-link">CONTACT US</li>
+                   </Link>
+            }
+            />
+            {/* <Route path="/post"  element={<div>index </div>}/> */}
+            </Routes>
+            
+        
+          
+          
+          
+          
+          
         </ul>
       </div>
 
