@@ -1,15 +1,19 @@
 import styled from "styled-components";
-import { Link, Router } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
-// import logo from "../../Images/logo.png";
+import logo from "../../Images/logo.png";
 import "./NavBar.css";
 import AboutUs from "../../Pages/AboutUs/AboutUs";
 
 const NavBar = () => {
   return (
       <div className="NavbarItems">
- 
+     
         <ul className="nav-menu">
+                <Link to="/">
+                  <img src={logo} alt="logo" className="nav-logo"/>
+                </Link> 
+                
                  <Link to="/AboutUs" style={{ textDecoration: "none" }}>
                    <li className="nav-menu-link">ABOUT US</li>
                  </Link>

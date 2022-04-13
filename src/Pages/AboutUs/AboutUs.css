@@ -1,0 +1,45 @@
+.AboutUs-body-one-container {
+    background-image: url('https://metropolitanaddis.com/wp-content/uploads/2021/12/2020-Mar-13-10.jpg');   
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: -80px;
+    height: 540px;
+}
+
+.AboutUs-body-one {
+    margin-left: 265px;
+    margin-top: 70px;
+}
+.AboutUs-body-one-header {
+    color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 30px;
+}
+
+.line {
+    width: 40%;
+    margin: 0 auto;
+    direction: ltr;
+    text-align: center;
+    border-style: solid;
+    color: #f5f7f8;
+    border-width: 2px;
+    margin-bottom: 10px;
+    size: 20px;
+    spacing: 10px;
+    height: 24px;
+    size: 20px;
+    repeat: repeat-x;
+}
+.AboutUs-body-one-body {
+    color: #ededed;
+    width: 800px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+

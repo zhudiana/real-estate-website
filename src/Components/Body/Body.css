@@ -1,5 +1,13 @@
 
-
+.body1-content {
+    background-image: url('https://metropolitanaddis.com/wp-content/uploads/2019/09/Bole-Tower-Entrance-Luxury-Apartments_02.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    display: block;
+}
 /* body2 style*/
 .little-text {
     color: #d0b483;
@@ -18,35 +26,35 @@ figcaption span {
 
 figcaption h3 {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-family: 'Barlow', sans-serif;
     /* width: 300; */
     text-shadow: 1px 0 12px #000;
-    font-weight: 300;
+    font-weight: 100;
     /* text-align: center; */
 }
 figcaption h2 {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 59px;
     font-family: 'Barlow', sans-serif;
-    width: 300;
+    font: 300;
     text-shadow: 1px 0 12px #000;
     text-align: center;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .blur-bg {
-   margin-top: -17px;
+   margin-top: -1px;
     opacity: 0.5;
     height: 600px;
-    
+    width: 2800px;
 }
 .upper-image {
     position: absolute;

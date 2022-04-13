@@ -1,5 +1,6 @@
 import "./Body.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "react-router-dom";
 
 const Body2 = () => {
   return (
@@ -7,11 +8,16 @@ const Body2 = () => {
       <container>
         <figure className="position-relative">
             <img src="https://www.metropolitanaddis.com/wp-content/uploads/2019/09/MetroWeb1-1.jpg" className="blur-bg"/>
-            <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_293/https://metropolitanaddis.com/wp-content/uploads/2019/09/luxury-logo-300x293.png" className="upper-image" />
+           <Link to="/LuxuryLines">
+             <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_293/https://metropolitanaddis.com/wp-content/uploads/2019/09/luxury-logo-300x293.png" className="upper-image" />
+           </Link>
            <div className="elementor-third-column">
               <p className="little-text">Metropolitan Apartments </p>
              <figcaption>
-                <span className="elementor-button-text">LUXURY LINE</span>
+              <Link to="/StandardLines" style={{ textDecoration: "none" }}>
+                 <span className="elementor-button-text">LUXURY LINE</span>
+              </Link>
+               
                   <div className="elementor-paragraph">
                     <p>
                       Luxury living is defined differently across different markets and areas. 
@@ -26,7 +32,10 @@ const Body2 = () => {
                   </div>
               </figcaption> 
               <div className="elmentor-text">
-                <span><button className="elementor-text-btn">View Luxury Apartments</button></span>
+                <Link to="/LuxuryLines">
+                  <span><button className="elementor-text-btn">View Luxury Apartments</button></span>
+                </Link>
+                
               </div>
               
            </div>
