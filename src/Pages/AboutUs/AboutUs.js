@@ -1,8 +1,12 @@
+import { Link, Route, Routes } from "react-router-dom";
+
 const AboutUs = () => {
   return (
-    <div>
-   nbvfjhbjh
-    </div>
+    
+        <div>
+          hi this is aboutUs 
+        </div>
+ 
   )
 }
 

@@ -1,85 +1,42 @@
 import styled from "styled-components";
-import { Link, Routes,Route } from "react-router-dom";
+import { Link, Router } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
-import logo from "../../Images/logo.png";
-import './NavBar.css';
-
+// import logo from "../../Images/logo.png";
+import "./NavBar.css";
+import AboutUs from "../../Pages/AboutUs/AboutUs";
 
 const NavBar = () => {
   return (
-    <div className="NavbarItems">
-        <img src={logo} alt="logo" className="nav-logo"/>
+      <div className="NavbarItems">
+ 
         <ul className="nav-menu">
-          
-            <Routes>
-              <Route path="/" element={
-                   <Link to="/post" style={{ textDecoration: 'none' }}>
-                      <li className="nav-menu-link">ABOUT US</li>
-                   </Link>
-            }
-            />
-            {/* <Route path="/post"  element={<div>index </div>}/> */}
-            </Routes>
-            <Routes>
-              <Route path="/" element={
-                   <Link to="/post" style={{ textDecoration: 'none' }}>
-                      <li className="nav-menu-link">LUXURY LINES</li>
-                   </Link>
-            }
-            />
-            {/* <Route path="/post"  element={<div>index </div>}/> */}
-            
-            </Routes>
-            <Routes>
-              <Route path="/" element={
-                   <Link to="/post" style={{ textDecoration: 'none' }}>
-                      <li className="nav-menu-link">STANDARD LINES</li>
-                   </Link>
-            }
-            />
-            {/* <Route path="/post"  element={<div>index </div>}/> */}
-            </Routes>
-            <Routes>
-              <Route path="/" element={
-                   <Link to="/post" style={{ textDecoration: 'none' }}>
-                      <li className="nav-menu-link">NEWS & BLOG</li>
-                   </Link>
-            }
-            />
-            {/* <Route path="/post"  element={<div>index </div>}/> */}
-            </Routes>
-            <Routes>
-              <Route path="/" element={
-                   <Link to="/post" style={{ textDecoration: 'none' }}>
-                      <li className="nav-menu-link">METROPOLITAN DIFFERNCE</li>
-                   </Link>
-            }
-            />
-            {/* <Route path="/post"  element={<div>index </div>}/> */}
-            </Routes>
-            <Routes>
-              <Route path="/" element={
-                   <Link to="/post" style={{ textDecoration: 'none' }}>
-                      <li className="nav-menu-link">CONTACT US</li>
-                   </Link>
-            }
-            />
-            {/* <Route path="/post"  element={<div>index </div>}/> */}
-            </Routes>
-            
-        
-          
-          
-          
-          
-          
-        </ul>
-      </div>
+                 <Link to="/AboutUs" style={{ textDecoration: "none" }}>
+                   <li className="nav-menu-link">ABOUT US</li>
+                 </Link>
 
-      
-        
-  )
-}
+                 <Link to="/LuxuryLines" style={{ textDecoration: "none" }}>
+                   <li className="nav-menu-link">LUXURY LINES</li>
+                 </Link>
+
+                 <Link to="/StandardLines" style={{ textDecoration: "none" }}>
+                   <li className="nav-menu-link">STANDARD LINES</li>
+                 </Link>
+
+                 <Link to="/NewsBlogs" style={{ textDecoration: "none" }}>
+                   <li className="nav-menu-link">NEWS & BLOG</li>
+                 </Link>
+
+                 <Link to="/MetropolitanDifference" style={{ textDecoration: "none" }}>
+                   <li className="nav-menu-link-long">METROPOLITAN DIFFERNCE</li>
+                 </Link>
+
+                 <Link to="/ContactUs" style={{ textDecoration: "none" }}>
+                   <li className="nav-menu-link">CONTACT US</li>
+                 </Link>
+               </ul> 
+      </div>
+  );
+};
 
 export default NavBar;
 
@@ -92,6 +49,6 @@ export default NavBar;
 //         </a>
 //       {/* <Link to="item.url"></Link> */}
 
-//     </li>  
+//     </li>
 //   )
 // })}
