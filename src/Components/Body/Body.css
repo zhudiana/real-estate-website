@@ -142,7 +142,7 @@ figcaption h2 {
 .little-text-two {
     color: #fcdd18;
     margin-bottom: 100px;
-
+    font-family: "Barlow",Sans-serif;
 }
 
 .elementor-body-three-title {
@@ -154,6 +154,7 @@ figcaption h2 {
     left: 900px;
     width: 445px;
     height: 75px;
+    
 }
 
 .elementor-paragraph-body-three {
@@ -161,6 +162,7 @@ figcaption h2 {
     font-weight: 700; 
     margin-top: -400px;
     margin-left: 900px;
+    margin-right: 10px;
 }
 
 .elmentor-body3-text {
@@ -183,7 +185,7 @@ figcaption h2 {
     height: 350px;
     /* width: 3000px; */
     /* position: relative; */
-    margin-top: 50px;
+    margin-top: 10px;
     background-position: top right; 
     background-position-x: right; 
     background-position-y: top;
@@ -209,7 +211,7 @@ figcaption h2 {
     font-weight: bolder;   
     font-size: inherit;
     width: 1000px;
-    margin-top: -10px;
+    margin-top: -40px;
 }
 h5 {
     margin-top: 200px;
