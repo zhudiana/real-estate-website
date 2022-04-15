@@ -1,0 +1,271 @@
+/* Body one */
+.LuxuryLines-body1-container {
+    background-color: #03192b;
+    height: 500px;
+}
+.LuxuryLines-body1-image {
+    margin-top: 100px;
+    margin-left: 550px;
+}
+.LuxuryLines-body1-paragraph-container {
+    width:500px;
+    margin-left:400px ;
+    margin-top: 30px;
+    color: #f7f7f7;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+}
+
+/* Body two */
+.LuxuryLines-body2-container{
+    background-image: url('https://metropolitanaddis.com/wp-content/uploads/2021/03/CA.png');
+    background-size: cover;
+    background-color: #032540;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.LuxuryLines-body2-upper-image {
+    text-align: center;
+    padding-top:110px ;
+}
+.LuxuryLines-p-body2-header{
+    font-size: 30px;
+    font-weight: 600;
+}
+.LuxuryLines-body2-paragraph-container {
+    width: 400px;
+    margin-top: -500px;
+    margin-left: 900px;
+    color: #fff;
+    line-height: 40px;
+}
+.LuxuryLines-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.body2-view-detail-button {
+    border: 2px solid #fcdd18;
+    background-color: rgba(252,221,24,0);
+    color: #fcdd18;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 900px;
+}
+
+/* Body three*/
+
+.LuxuryLines-body3-container{
+    background-image: url('https://www.metropolitanaddis.com/wp-content/uploads/2019/08/luxuryapartmentsmetropolitan.png');
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+    opacity: 0.8;
+}
+ .LuxuryLines-body3-upper-image {
+    /* text-align: center; */
+    padding-top:110px ;
+    margin-left: 400px;
+    width: 500px;
+}
+
+.LuxuryLines-p-body3-header{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.LuxuryLines-body3-paragraph-container {
+    width: 400px;
+    margin-top: -500px;
+    margin-left: 900px;
+    color: black;
+    line-height: 40px;
+    margin-top: -400px;
+}
+.LuxuryLines-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.body3-view-detail-button {
+    border: 2px solid #d0b483;
+    background-color: white;
+    color: #d0b483;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 900px;
+    width: 150px;
+}
+
+/* body four */
+
+.LuxuryLines-body4-container{
+    background-image: url('https://www.metropolitanaddis.com/wp-content/uploads/2019/08/bolemidtownapartments.png');
+    height: 650px;
+    background-color: #032540;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: #032540;
+    background-size: contain;
+}
+ .LuxuryLines-body4-upper-image {
+    /* text-align: center; */
+    padding-top:130px ;
+    margin-left: 400px;
+    width: 500px;
+}
+
+.LuxuryLines-p-body4-header{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.LuxuryLines-body4-paragraph-container {
+    width: 400px;
+    margin-top: -500px;
+    margin-left: 900px;
+    color: #fff;
+    line-height: 40px;
+    margin-top: -250px;
+}
+.LuxuryLines-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.body4-view-detail-button {
+    border: 2px solid #fcdd18;
+    background-color: rgba(252,221,24,0);
+    color: #fcdd18;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 900px;
+    width: 150px;
+}
+
+/* body five */
+
+.LuxuryLines-body5-container{
+    background-image: url('https://www.metropolitanaddis.com/wp-content/uploads/2019/08/sarbetgabrielapartments.png');
+    height: 600px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+    width: 800px;
+    /* opacity: 0.8; */
+}
+ .LuxuryLines-body5-upper-image {
+    /* text-align: center; */
+    padding-top:130px ;
+    margin-left: 400px;
+    width: 500px;
+}
+
+.LuxuryLines-p-body5-header{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.LuxuryLines-body5-paragraph-container {
+    width: 400px;
+    margin-top: -500px;
+    margin-left: 900px;
+    color: black;
+    line-height: 40px;
+    margin-top: -400px;
+}
+.LuxuryLines-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.body5-view-detail-button {
+    border: 2px solid #d0b483;
+    background-color: white;
+    color: #d0b483;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 900px;
+    width: 150px;
+}
+
+/* body six */
+.LuxuryLines-body6-title {
+    background-color:#0b1b35 ;
+    margin-bottom: -10px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.LuxuryLines-body6-container {
+    display: flex;
+    background-color: #0b1b35;
+    padding-top: 50px;
+}
+.more-luxury-homes-each-list {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 5px;  
+}
+.luxury-homes-title{
+    color: #876718;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 20px;
+    text-align: center;
+}
+
+.luxury-homes-title:hover {
+    color: #caa754;
+}
+
+.luxury-homes-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #777;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.luxury-homes-home-images {
+    cursor: pointer;
+    border-radius: 5px;
+}
+.luxury-homes-home-images:hover {
+    opacity: 0.5;
+}
+.luxury-homes-read-more-btn {
+    border: 2px solid #d0b483;
+    background-color: white;
+    color: #d0b483;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 110px;
+    margin-left: 10px;
+}
+.luxury-homes-read-more-btn:hover {
+    color: #e39715;
+}
