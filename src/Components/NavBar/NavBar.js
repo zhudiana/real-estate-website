@@ -31,7 +31,7 @@ const NavBar = () => {
                  </Link>
 
                  <Link to="/MetropolitanDifference" style={{ textDecoration: "none" }}>
-                   <li className="nav-menu-link-long">METROPOLITAN DIFFERNCE</li>
+                   <li className="nav-menu-link-long">METROPOLITAN DIFFERENCE</li>
                  </Link>
 
                  <Link to="/ContactUs" style={{ textDecoration: "none" }}>
