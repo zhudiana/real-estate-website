@@ -1,133 +1,302 @@
-import NavBar from '../../Components/NavBar/NavBar';
+import NavBar from "../../Components/NavBar/NavBar";
 import logo from "../../Images/logo.png";
-import Footer2 from '../../Components/Footer/Footer2/Footer2';
-import { Link } from 'react-router-dom';
+import Footer2 from "../../Components/Footer/Footer2/Footer2";
+import { Link } from "react-router-dom";
+import "./MetropolitanDifference.css";
+import { FaCheck } from "react-icons/fa";
 
 const MetropolitanDifference = () => {
   return (
     <div className="Main-container">
-    <div className="Navigation-container">
+      <div className="Navigation-container">
         <NavBar />
         <Link to="/">
-          <img src={logo} alt="logo" className="nav-logo-each"/>
+          <img src={logo} alt="logo" className="nav-logo-each" />
         </Link>
-    </div>
+      </div>
 
-    {/* Body one */}
-    <div className="StandardLines-body1-container">
-            <div className="StandardLines-image-container">
-              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_413/https://metropolitanaddis.com/wp-content/uploads/2019/07/standard-aparatama-logo-e1590674361378.png" />
-            </div>
-            <div className="StandardLines-body1-paragraph-container">
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments are built with equivalent quality 
-              to that of luxury apartments. Construction processes, 
-              material quality and supervision are not compromised. 
-              Metropolitan’s luxury constructions are done by experienced 
-              international engineers with strict supervision.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Location of standard apartments may not be as convenient 
-              as luxury home but they’re usually located in up and coming 
-              neighborhoods which makes it suitable for residential apartments.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments offer standard features like a generator, 
-              elevator, water tank, parking, collective installations, power 
-              back-up, and secure access.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments come with limited but up to standard amenities 
-              and appliances. Even though amenities like gym & clubhouses aren’t 
-              available like metropolitan’s luxury houses for sale in Addis Ababa, 
-              it comes with kitchen cabinet finishes, floor tiles, water insulation 
-              features, marble finish, and different fixtures.
-              </p>
-            </div>   
-          </div>
-
-          {/* Body Two */}
-          <div className="StandardLines-body2-container">
-            <div className="StandardLines-body2-upper-image">
-                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_768/https://metropolitanaddis.com/wp-content/uploads/2019/07/catalogue-sticker-768x656.png" />
-            </div>
-            <div className="StandardLines-body2-paragraph-container">
-              <p className='StandardLines-p-body2-header'>WESTVIEW STANDARD APARTMENTS</p>
-              <p className='StandardLines-p'>
-                Looking for comfort and convenience without the price tag?
-              </p>
-              <p className='StandardLines-p'>
-                Metropolitan’s Westview Standard Apartments for sale in Addis Ababa 
-                is an international standard project which meets all of Metropolitan’s 
-                high-quality standards. The city’s best construction meets an ergonomic 
-                design at Westview Standard Apartments to provide you with functional and 
-                convenient homes.
-              </p>
-              <p className='StandardLines-p'>
-              If you are looking for  western quality, comfort and security which is affordable, 
-              Westview Standard Apartments is your best option
-              </p>
-            </div>
-
-            <div className="StandardLines-body2-view-detail">
-              <button className='StandardLines-body2-view-detail-button'>
-                    View Details 
-              </button>
-            </div>
-          </div>
-
-           {/* Body three */}
-          
-           <div className="LuxuryLines-body6-title">
-                <h3>More About Metropolitan Luxury Homes</h3>
-            </div>
-            <div className="LuxuryLines-body6-container">
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1500,h_1125/https://metropolitanaddis.com/wp-content/uploads/2019/09/midtown-living-room.jpg" className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">4 THINGS THAT MAKE A MODERN APARTMENT "MODERN"</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200,h_750/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">WHAT ARE STANDARD APARTMENTS FOR SALE IN ETHIOPIA?</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://metropolitanaddis.com/wp-content/uploads/2018/10/katalog-baski_Page_17.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF ELEVETORS-IN HOME FOR SALE IN ADDIS ABABA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2048,h_1365/https://metropolitanaddis.com/wp-content/uploads/2019/07/294A8540.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF APARTMENTS IN ETHIPIA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1000,h_625/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__4.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">WESTVIEW STANDARD APARTMENT BRAND NEW HOUSE FOR SALE IN ETHIOPIA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_747,h_779/https://metropolitanaddis.com/wp-content/uploads/2019/08/park.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF PARKING SPACES IN LUXURY APARTMENTS</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-          </div>
-
-
-
-
-    <div className="Footer-container">
-            <Footer2 />
+      {/* Body one */}
+      <div className="Metropolitan-difference-container">
+        <div className="metropolitan-header">
+          <h3>The Difference Between Luxury And Standard Apartments</h3>
         </div>
-  </div>
-  )
-}
+        <div className="metropolitan-paragraph">
+          <p className="metropolitan-p">
+            Metropolitan Real Estate always strives to give you a modern and
+            luxurious life in the African capital Addis Ababa. Metropolitan is
+            now working on two kinds of apartments: luxury apartments and
+            standard apartments.
+          </p>
+          <p className="metropolitan-p">
+            The major differences of these two types of apartments are listed
+            below to help you make an informed decision when purchasing a home
+            from us.
+          </p>
+        </div>
+      </div>
 
-export default MetropolitanDifference
+      {/* Body two */}
+      <div className="Metropolitan-difference-container-body2">
+        <div className="inside-background-body2">
+          <div className="inside-content-container">
+            <div className="upper-image-metropolitan">
+              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300/https://metropolitanaddis.com/wp-content/uploads/2019/09/luxury-logo-300x293.png" />
+            </div>
+            <div className="inside-text-upper">
+              <p className="each-feature-p">
+                Metropolitan Real Estate always strives to give you a modern and
+                luxurious life in the African capital Addis Ababa. Luxury homes
+                are built with very high quality and strict supervision. At
+                Metropolitan, all construction material, fixtures and appliances
+                are carefully selected to provide the best home for you and your
+                family Metropolitan Real Estate always strives to give you a
+                modern and luxurious life in the African capital Addis Ababa.
+                Luxury homes are built with very high quality and strict
+                supervision. At Metropolitan, all construction material,
+                fixtures and appliances are carefully selected to provide the
+                best home for you and your family
+              </p>
+            </div>
+            <div className="inside-text-list-title">
+              <h2>Features</h2>
+            </div>
+            <div className="inside-text-lists">
+              <ul className="inside-text-lists-feature">
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  Generator
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  Elevator
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  Water Tank
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  underground parking
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  international supervisory
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  international engineering
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  all functional features
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />1 year warranty
+                </li>
+              </ul>
+
+              <ul className="inside-text-lists-feature">
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  water insulation
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  steel main door
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  gym
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  clubhouse
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  exterior aluminum cover
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  luxury kitchen cabinet
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  luxury tile flooring
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  luxury marbles
+                </li>
+              </ul>
+
+              <ul className="inside-text-lists-feature">
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  luxury fixtures
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  move in ready
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  double pane windows
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  built in appliances
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  bed room closet
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  guest closet
+                </li>
+                <li className="each-feature-list">
+                  <FaCheck className="check-icon" />
+                  wood flooring
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span>
+            <button className="elementor-text-btn-feature">
+              View Luxury Apartments
+            </button>
+          </span>
+        </div>
+
+        {/* body three */}
+        <div className="inside-background-body3">
+          <div className="inside-content-container">
+            <div className="upper-image-metropolitan">
+              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300/https://metropolitanaddis.com/wp-content/uploads/2019/07/standard-aparatama-logo-e1590674361378-300x225.png" />
+            </div>
+            <div className="inside-text-upper-body3">
+              <p className="each-feature-p-body3">
+                Standard apartments are built with equivalent quality to that of
+                luxury apartments but with the element of affordability.
+                Construction processes, material quality and supervision are not
+                compromised. Just like Metropolitans luxury constructions are
+                done by experienced international engineers with strict
+                supervision. Standard apartments are built with equivalent
+                quality to that of luxury apartments but with the element of
+                affordability. Construction processes, material quality and
+                supervision are not compromised. Just like Metropolitans luxury
+                constructions are done by experienced international engineers
+                with strict supervision. Standard apartments are built with
+                equivalent quality to that of luxury apartments but with the
+                element of affordability. Construction processes, material
+                quality and supervision are not compromised. Just like
+                Metropolitans luxury constructions are done by experienced
+                international engineers with strict supervision.
+              </p>
+            </div>
+            <div className="inside-text-list-title-body2">
+              <h2>Features</h2>
+            </div>
+            <div className="inside-text-lists">
+              <ul className="inside-text-lists-feature-body3">
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  Generator
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  Elevator
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  Water Tank
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  underground parking
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  international supervisory
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  international engineering
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  all functional features
+                </li>
+              </ul>
+
+              <ul className="inside-text-lists-feature-body3">
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />1 year warranty
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  water insulation
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  steel main door
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  clubhouse
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  international standard kitchen cabinet
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  international standard tile flooring
+                </li>
+              </ul>
+
+              <ul className="inside-text-lists-feature-body3">
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  international standard marbles
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  international standard fixtures
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  move in ready
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  steel main door
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  single pane windows
+                </li>
+                <li className="each-feature-list-body3">
+                  <FaCheck className="check-icon-body3" />
+                  only at shower bathroom wall tiles
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span>
+            <button className="elementor-text-btn-feature-body3">
+              View Luxury Apartments
+            </button>
+          </span>
+        </div>
+      </div>
+
+      <div className="Footer-container">
+        <Footer2 />
+      </div>
+    </div>
+  );
+};
+
+export default MetropolitanDifference;

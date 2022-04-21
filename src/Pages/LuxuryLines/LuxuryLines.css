@@ -214,6 +214,7 @@
     display: flex;
     background-color: #0b1b35;
     padding-top: 50px;
+    padding-left: 100px;
 }
 .more-luxury-homes-each-list {
     width: 400px;
@@ -230,7 +231,6 @@
     margin-right: 10px;
     font-family: 'Roboto',sans-serif;
     font-weight: 600;
-    text-decoration: underline;
     line-height: 20px;
     text-align: center;
 }

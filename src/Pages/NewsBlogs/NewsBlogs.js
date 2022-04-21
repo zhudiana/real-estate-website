@@ -1,133 +1,295 @@
-import NavBar from '../../Components/NavBar/NavBar';
+import NavBar from "../../Components/NavBar/NavBar";
 import logo from "../../Images/logo.png";
-import Footer2 from '../../Components/Footer/Footer2/Footer2';
-import { Link } from 'react-router-dom';
+import Footer2 from "../../Components/Footer/Footer2/Footer2";
+import { Link } from "react-router-dom";
+import "./NewsBlogs.css";
 
 const NewsBlogs = () => {
   return (
     <div className="Main-container">
       <div className="Navigation-container">
-          <NavBar />
-          <Link to="/">
-            <img src={logo} alt="logo" className="nav-logo-each"/>
-          </Link>
+        <NavBar />
+        <Link to="/">
+          <img src={logo} alt="logo" className="nav-logo-each" />
+        </Link>
       </div>
 
       {/* Body one */}
-      <div className="StandardLines-body1-container">
-            <div className="StandardLines-image-container">
-              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_413/https://metropolitanaddis.com/wp-content/uploads/2019/07/standard-aparatama-logo-e1590674361378.png" />
-            </div>
-            <div className="StandardLines-body1-paragraph-container">
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments are built with equivalent quality 
-              to that of luxury apartments. Construction processes, 
-              material quality and supervision are not compromised. 
-              Metropolitan’s luxury constructions are done by experienced 
-              international engineers with strict supervision.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Location of standard apartments may not be as convenient 
-              as luxury home but they’re usually located in up and coming 
-              neighborhoods which makes it suitable for residential apartments.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments offer standard features like a generator, 
-              elevator, water tank, parking, collective installations, power 
-              back-up, and secure access.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments come with limited but up to standard amenities 
-              and appliances. Even though amenities like gym & clubhouses aren’t 
-              available like metropolitan’s luxury houses for sale in Addis Ababa, 
-              it comes with kitchen cabinet finishes, floor tiles, water insulation 
-              features, marble finish, and different fixtures.
-              </p>
-            </div>   
-          </div>
+      <div className="NewsBlogs_header">
+        <h3 className="HeaderTitle">
+          News <br /> & <br /> Blog
+        </h3>
+      </div>
 
-          {/* Body Two */}
-          <div className="StandardLines-body2-container">
-            <div className="StandardLines-body2-upper-image">
-                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_768/https://metropolitanaddis.com/wp-content/uploads/2019/07/catalogue-sticker-768x656.png" />
-            </div>
-            <div className="StandardLines-body2-paragraph-container">
-              <p className='StandardLines-p-body2-header'>WESTVIEW STANDARD APARTMENTS</p>
-              <p className='StandardLines-p'>
-                Looking for comfort and convenience without the price tag?
-              </p>
-              <p className='StandardLines-p'>
-                Metropolitan’s Westview Standard Apartments for sale in Addis Ababa 
-                is an international standard project which meets all of Metropolitan’s 
-                high-quality standards. The city’s best construction meets an ergonomic 
-                design at Westview Standard Apartments to provide you with functional and 
-                convenient homes.
-              </p>
-              <p className='StandardLines-p'>
-              If you are looking for  western quality, comfort and security which is affordable, 
-              Westview Standard Apartments is your best option
-              </p>
-            </div>
+      {/* Body two */}
+      <div className="blog-title">
+        <h3 className="blog-text">Blog</h3>
+      </div>
 
-            <div className="StandardLines-body2-view-detail">
-              <button className='StandardLines-body2-view-detail-button'>
-                    View Details 
-              </button>
-            </div>
-          </div>
+      <div className="LuxuryLines-body6-container">
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://metropolitanaddis.com/wp-content/uploads/2022/04/f.jpg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              How to Make a Winning Offer on an Apartment
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Today’s Apartment buyers face a strong sellers’ market, meaning
+              there are many active buyers competing for a relatively low number
+              of affordable homes. As a […]{" "}
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600,h_400/https://metropolitanaddis.com/wp-content/uploads/2022/04/Closing-Cost.jpg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              Don’t Forget to Budget For Closing Costs While Buying An Apartment
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Purchasing an apartment demands a large financial investment,
+              which many prospective buyers are unaware of. Although it’s a
+              smart idea to figure exactly how […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+          <li>
+            <button className="luxury-homes-read-more-btn">See More</button>
+          </li>
+        </ul>
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_509/https://metropolitanaddis.com/wp-content/uploads/2022/04/Blog-22.jpg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              What are The Benefits of Owning a Second Apartment
+            </h3>
+            <p className="luxury-homes-paragraph">
+              This is a short summary on the benefit of having more than two
+              apartments. […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_447/https://metropolitanaddis.com/wp-content/uploads/2022/03/What-Does-a-Builders-Warranty-Cover.jpg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              Top 7 things a Builder’s Warranty Covers
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Builder’s warranties vary greatly, so Apartment owners must take
+              the time to learn what is covered. Even with new Apartments,
+              things can go wrong. As a result, many […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+        </ul>
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_427/https://metropolitanaddis.com/wp-content/uploads/2022/03/APa.png"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              When hunting apartment at a distance like a champ, consider this
+              factors
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Know-how when you have got to buy an Apartment from across the
+              country, start with a winning strategy. Searching for an Apartment
+              locally is not without […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_426/https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              How to Afford Buying an Apartment in Ethiopia
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Apartment buying hurdles exist — but research, creativity, and
+              flexibility will help you clear them. Apartment buyers today face
+              tough challenges. Apartment prices have soared; money doesn’t go
+              as far […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+        </ul>
+      </div>
 
-           {/* Body three */}
-          
-           <div className="LuxuryLines-body6-title">
-                <h3>More About Metropolitan Luxury Homes</h3>
-            </div>
-            <div className="LuxuryLines-body6-container">
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1500,h_1125/https://metropolitanaddis.com/wp-content/uploads/2019/09/midtown-living-room.jpg" className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">4 THINGS THAT MAKE A MODERN APARTMENT "MODERN"</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200,h_750/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">WHAT ARE STANDARD APARTMENTS FOR SALE IN ETHIOPIA?</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://metropolitanaddis.com/wp-content/uploads/2018/10/katalog-baski_Page_17.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF ELEVETORS-IN HOME FOR SALE IN ADDIS ABABA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2048,h_1365/https://metropolitanaddis.com/wp-content/uploads/2019/07/294A8540.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF APARTMENTS IN ETHIPIA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1000,h_625/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__4.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">WESTVIEW STANDARD APARTMENT BRAND NEW HOUSE FOR SALE IN ETHIOPIA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_747,h_779/https://metropolitanaddis.com/wp-content/uploads/2019/08/park.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF PARKING SPACES IN LUXURY APARTMENTS</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-          </div>
+      {/* body three */}
+      <div className="blog-title">
+        <h3 className="blog-text">News</h3>
+      </div>
+      <div className="LuxuryLines-body6-container">
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://metropolitanaddis.com/wp-content/uploads/2020/11/Bole-Midtown-inaguration-312-300x181.jpg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">Bole Midtown inauguration</h3>
+          </li>
+          <li>
+            <button className="luxury-homes-read-more-btn">See More</button>
+          </li>
+        </ul>
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://metropolitanaddis.com/wp-content/uploads/2020/04/Kco6QKr6RemIQYj9qK0P-300x199.png"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              Metropolitan Real Estate: Fight Against the COVID-19 Pandemic{" "}
+            </h3>
+          </li>
+        </ul>
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_300,h_300/https://metropolitanaddis.com/wp-content/uploads/2019/07/WhatsApp-Image-2019-06-27-at-11.45.35-AM-300x300.jpeg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              Metropolitan Tower Launch party
+            </h3>
+          </li>
+        </ul>
+      </div>
 
+      {/* body four */}
+      <div className="blog-title">
+        <h3 className="blog-text">Projects</h3>
+      </div>
 
+      <div className="LuxuryLines-body6-container">
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_548/https://metropolitanaddis.com/wp-content/uploads/2019/07/westview-standard-apartnements-2000x1714.png"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              Westview Standards Apartments Events
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Westview Standard Apartments Events Looking for comfort and
+              convenience without the price tag? Metropolitan’s Westview
+              Standard affordable homes for sale in Addis Ababa is an […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_400/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              Westview Standards Apartments Gallery
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Gallery: Westview Standard Apartments Looking for comfort and
+              convenience without the price tag? Metropolitan’s Westview
+              Standard affordable homes for sale in Addis Ababa is an […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+        </ul>
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_640/https://metropolitanaddis.com/wp-content/uploads/2019/07/WhatsApp-Image-2019-06-27-at-11.45.35-AM.jpeg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">Metropolitan Tower Events</h3>
+            <p className="luxury-homes-paragraph">
+              Metropolitan Tower Apartments Events Metropolitan Tower Launch
+              Party Metropolitan tower launch party was organized as a
+              celebration of the launch of Metropolitan Tower Luxury Apartments.
+              […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_480/https://metropolitanaddis.com/wp-content/uploads/2019/09/COMMON-AREAS-6.jpg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">Metropolitan Tower Gallery</h3>
+            <p className="luxury-homes-paragraph">
+              Gallery: Metropolitan Tower Apartments Original architecture,
+              international standard and a central location offer a quality of
+              life unparalleled in the Addis Ababa Market. A unique […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+        </ul>
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_454/https://metropolitanaddis.com/wp-content/uploads/2018/12/tower_slider_pic.png"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              Metropolitan Tower Facilities
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Facilities at Metropolitan Tower Apartments 24 HOURS UNINTERRUPTED
+              POWER SUPPLY At Bole Tower you won’t suffer from Addis Ababa’s
+              common power outage. Our high capacity […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+          <li className="more-luxury-homes-each-list">
+            <img
+              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_400/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg"
+              style={{ width: "400px", height: "300px" }}
+              className="luxury-homes-home-images"
+            />
+            <h3 className="luxury-homes-title">
+              Westview Standard Apartments Facilities
+            </h3>
+            <p className="luxury-homes-paragraph">
+              Facilities at Westview Standard Apartments Learn More […]
+            </p>
+            <button className="luxury-homes-read-more-btn">Read More</button>
+          </li>
+        </ul>
+      </div>
 
-
+      {/* Footer */}
       <div className="Footer-container">
-              <Footer2 />
-          </div>
+        <Footer2 />
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default NewsBlogs;

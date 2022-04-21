@@ -1,0 +1,37 @@
+.NewsBlogs_header {
+    background-image: url("https://metropolitanaddis.com/wp-content/uploads/2021/11/Picture1.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.HeaderTitle {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 59px;
+    font-family: 'Barlow', sans-serif;
+    font: 300;
+    text-shadow: 1px 0 12px #000;
+    text-align: center;
+    font-weight: bolder;
+}
+.blog-title {
+    background-color: #032540;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font: bolder;
+    text-align: center;
+   
+    margin-bottom: -10px;
+    padding-top: 30px;
+}
+h3 {
+     font-weight: bolder;
+     font-size: 59px;
+}
+.each-news-container {
+    background-color: #032540;
+}
