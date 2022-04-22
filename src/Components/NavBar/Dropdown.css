@@ -1,0 +1,26 @@
+.dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+}
+
+.dropdown-menu li{
+    background: red;
+}
+.dropdown-menu li:hover {
+    background-color: red;
+}
+
+.dropdown-menu.clicked{
+    display: none;
+}
+.dropdown-link {
+    display: block;
+    width: 10%;
+    height: 100%;
+    text-decoration: none;
+    color: red;
+    padding: 16px;
+}

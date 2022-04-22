@@ -31,9 +31,10 @@ figcaption h3 {
     transform: translate(-50%, -50%);
     color: #fff;
     font-family: 'Barlow', sans-serif;
+    font-size: 24px;
     /* width: 300; */
     text-shadow: 1px 0 12px #000;
-    font-weight: 100;
+    font-weight: bolder;
     /* text-align: center; */
 }
 figcaption h2 {
@@ -77,7 +78,7 @@ figcaption h2 {
 .elementor-paragraph {
     color: #0b1b35;
     font-weight: 700;
-    width: 391px;
+    width: 500px;
     height: 98px;
 }
 
@@ -143,6 +144,7 @@ figcaption h2 {
     color: #fcdd18;
     margin-bottom: 100px;
     font-family: "Barlow",Sans-serif;
+    margin-top: 40px;
 }
 
 .elementor-body-three-title {
@@ -150,7 +152,7 @@ figcaption h2 {
     color: #fff;
     font-size: 30px;
     font-weight: 500;
-    top: 1400px;
+    top: 1450px;
     left: 900px;
     width: 445px;
     height: 75px;
@@ -163,11 +165,13 @@ figcaption h2 {
     margin-top: -400px;
     margin-left: 900px;
     margin-right: 10px;
+    width: 500px;
 }
 
 .elmentor-body3-text {
     margin-left: 900px;
     margin-top: 80px;
+    padding-bottom: 30px;
 }
 .elementor-body3-text-btn {
     border: 2px solid #fcdd18;
