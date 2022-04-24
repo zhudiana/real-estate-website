@@ -47,9 +47,10 @@ a.active{
     background-color: #163967;
     height: 50px;
 }
-.nav-menu-link.active {
-    color: #fff;
+a:active {
+    color: red;
 }
+
 .nav-menu-link {
     padding-top: 18px;
     padding-bottom: 18px;
