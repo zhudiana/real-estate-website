@@ -3,11 +3,11 @@
     background-repeat: no-repeat;
     background-size:cover;
     margin-top: -80px;
-    height: 540px;
+    height: 830px;
 }
 
 .AboutUs-body-one {
-    margin-left: 265px;
+    margin-left: 355px;
     margin-top: 70px;
 }
 .AboutUs-body-one-header {
@@ -15,8 +15,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-align: center;
-    font-size: 23px;
-    padding-top: 30px;
+    font-size: 36px;
+    padding-top: 200px;
 }
 
 .line {
@@ -28,6 +28,7 @@
     color: #f5f7f8;
     border-width: 2px;
     margin-bottom: 10px;
+    margin-top: 40px;
     size: 20px;
     spacing: 10px;
     height: 24px;
@@ -38,7 +39,7 @@
     color: #ededed;
     width: 800px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
 }
@@ -48,9 +49,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    font-size: 20px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 30px;
 }
 
 .AboutUs-body-two-container {
@@ -64,11 +65,11 @@
 }
 .column-list {
     background-color: #fff;
-    height: 500px;
-    width: 30.478%;
+    height: 436px;
+    width: 354px;
     padding: 40px 40px 40px 40px;
     margin-right: 20px;
-    margin-left: 170px;
+    margin-left: 270px;
     border-radius:  15px;
 }
 
@@ -81,22 +82,64 @@
     font-family: "Roboto",Sans-serif;
     font-size: 16px;
     font-weight: 400;
-    text-align: justify;
     padding-top: 20px;
+    text-align: justify;
+    /* color: #022859; */
+    line-height: 35px;
  }
 
  .column-each-list-image {
      width: 150px;
      height: 150px;
-     margin-left: 100px;
+     margin-left: 60px;
+     /* opacity: 0;
+     transform: translateY(4em) rotate(-5deg);
+     transition: transform 4s .35s cubic-bezier(0,1,.3,1), 
+     opacity .3s .25s ease-out;
+     will-change: transform, opacity; */
  }
 
+/* in between */
  .in-between {
-    height: 200px;
+    height: 400px;
      background-size: cover;
      background-color: #fff;
  }
+ .in-between-header-text {
+     font-size: 24px;
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+ .icons-listed-in-between {
+     display: flex;
+     padding-left: 150px;
+ }
+ .icon-in-between {
+     width: 200px;
+     height: 57px;
+     text-align: center;
+     margin-right: 90px;
+     color: #03192b;
+     font-size: 15px;
+     font-weight: 600;
+ }
+ .icon-itself {
+     font-size: 50px;
+ }
+ .below-icon-text {
+    color: #03192b;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: "Roboto Slab", sans-serif;
+    text-align: center;
+    margin-bottom: 4px;
+    
+ }
 
+
+/* body three */
  .AboutUs-body-three-container {
     background-color: #0b1b35;
     height: 840px;
