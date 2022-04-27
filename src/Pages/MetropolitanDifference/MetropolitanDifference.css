@@ -23,11 +23,17 @@
 .Metropolitan-difference-container-body2 {
     background-color: #2c485f;
     margin-top: -20px ;
+    
+}
+.body2-body3 {
+    display: flex;
 }
 /* body two */
 .inside-background-body2 {
     background-color: #fff;
     margin: 20px 20px 20px 20px;
+    width: 40%;
+
 }
 .upper-image-metropolitan{
     text-align: center;
@@ -39,8 +45,8 @@
 }
 .inside-text-upper {
     color: #032540;
-    width: 900px;
-    margin-left: 250px;
+    width: 550px;
+   padding-left: 35px;
 }
 
 .inside-text-list-title{

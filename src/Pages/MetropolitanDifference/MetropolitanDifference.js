@@ -36,6 +36,7 @@ const MetropolitanDifference = () => {
       </div>
 
       {/* Body two */}
+
       <div className="Metropolitan-difference-container-body2">
         <div className="inside-background-body2">
           <div className="inside-content-container">
@@ -93,9 +94,7 @@ const MetropolitanDifference = () => {
                 <li className="each-feature-list">
                   <FaCheck className="check-icon" />1 year warranty
                 </li>
-              </ul>
 
-              <ul className="inside-text-lists-feature">
                 <li className="each-feature-list">
                   <FaCheck className="check-icon" />
                   water insulation
@@ -128,9 +127,7 @@ const MetropolitanDifference = () => {
                   <FaCheck className="check-icon" />
                   luxury marbles
                 </li>
-              </ul>
 
-              <ul className="inside-text-lists-feature">
                 <li className="each-feature-list">
                   <FaCheck className="check-icon" />
                   luxury fixtures
@@ -170,6 +167,7 @@ const MetropolitanDifference = () => {
         </div>
 
         {/* body three */}
+
         <div className="inside-background-body3">
           <div className="inside-content-container">
             <div className="upper-image-metropolitan">
@@ -228,9 +226,7 @@ const MetropolitanDifference = () => {
                   <FaCheck className="check-icon-body3" />
                   all functional features
                 </li>
-              </ul>
 
-              <ul className="inside-text-lists-feature-body3">
                 <li className="each-feature-list-body3">
                   <FaCheck className="check-icon-body3" />1 year warranty
                 </li>
@@ -254,9 +250,7 @@ const MetropolitanDifference = () => {
                   <FaCheck className="check-icon-body3" />
                   international standard tile flooring
                 </li>
-              </ul>
 
-              <ul className="inside-text-lists-feature-body3">
                 <li className="each-feature-list-body3">
                   <FaCheck className="check-icon-body3" />
                   international standard marbles

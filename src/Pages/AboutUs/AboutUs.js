@@ -255,7 +255,7 @@ const AboutUs = () => {
       </div>
 
       <div className="blog-title">
-        <h3 className="blog-text">Blog</h3>
+        <h3 className="blog-text-about">Blog</h3>
         <h4>More about Metropolitan’s luxury homes</h4>
       </div>
       {/* blog */}
