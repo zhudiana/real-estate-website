@@ -67,77 +67,77 @@ const ContactUs = () => {
         {/* second column */}
         <div className="contact-us-inner-container">
           <h2 className="have-question-header">Have A Question? Contact Us</h2>
-          <div className="form-inputs">
-            <label htmlFor="username" className="form-label">
+          <div className="form-inputss">
+            <label htmlFor="username" className="form-labell">
               Name
             </label>
             <input
               type="text"
               name="firstname"
-              className="form-input"
+              className="form-inputt"
               placeholder="Name"
             />
           </div>
-          <div className="form-inputs">
-            <label htmlFor="email" className="form-label">
+          <div className="form-inputss">
+            <label htmlFor="email" className="form-labell">
               Email
             </label>
             <input
               type="email"
               name="email"
-              className="form-input"
+              className="form-inputt"
               placeholder="Email"
             />
           </div>
-          <div className="form-inputs">
-            <label htmlFor="lastname" className="form-label">
+          <div className="form-inputss">
+            <label htmlFor="lastname" className="form-labell">
               Subject
             </label>
             <input
               type="text"
               name="lastname"
-              className="form-input"
+              className="form-inputt"
               placeholder="Subject (Optional)"
             />
           </div>
-          <div className="form-inputs">
-            <label htmlFor="country" className="form-label">
+          <div className="form-inputss">
+            <label htmlFor="country" className="form-labell">
               How did you find us?
             </label>
-            <select className="form-input">
-              <option value="Facebook" className="items-in-select">
+            <select className="form-inputt">
+              <option value="Facebook" className="items-in-selectt">
                 Facebook
               </option>
-              <option value="Instagram" className="items-in-select">
+              <option value="Instagram" className="items-in-selectt">
                 Instagram
               </option>
-              <option value="Linkdin" className="items-in-select">
+              <option value="Linkdin" className="items-in-selectt">
                 Linkdin
               </option>
-              <option value="Search" className="items-in-select">
+              <option value="Search" className="items-in-selectt">
                 Google Search
               </option>
-              <option value="referral" className="items-in-select">
+              <option value="referral" className="items-in-selectt">
                 Friend referral
               </option>
-              <option value="Event" className="items-in-select">
+              <option value="Event" className="items-in-selectt">
                 Event
               </option>
             </select>
           </div>
 
-          <div className="form-inputs">
-            <label htmlFor="phonenumber" className="form-label">
+          <div className="form-inputss">
+            <label htmlFor="phonenumber" className="form-labell">
               Message
             </label>
             <textarea
               type="textarea"
-              className="form-input-text-area"
+              className="form-input-text-areaa"
               placeholder="Message"
             />
           </div>
 
-          <button className="form-input-btn" type="submit">
+          <button className="form-input-btnn" type="submit">
             Send Message
           </button>
         </div>

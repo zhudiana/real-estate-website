@@ -42,18 +42,19 @@ const NavBar = () => {
           <NavLink to="/LuxuryLines" style={{ textDecoration: "none" }}>
             <li className="nav-menu-link">
               LUXURY LINES
-              <FaCaretDown
+              {/* <FaCaretDown
                 style={{ marginBottom: "8px" }}
                 // onMouseEnter={onMouseEnter}
                 // onMouseLeave={onMouseLeave}
-              />
+              /> */}
               {dropdown && <Dropdown />}
             </li>
           </NavLink>
 
           <NavLink to="/StandardLines" style={{ textDecoration: "none" }}>
             <li className="nav-menu-link">
-              STANDARD LINES <FaCaretDown style={{ marginBottom: "8px" }} />
+              STANDARD LINES
+              {/* <FaCaretDown style={{ marginBottom: "8px" }} */}
             </li>
           </NavLink>
 

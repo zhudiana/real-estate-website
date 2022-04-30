@@ -176,7 +176,7 @@
   }
 
 
-.form-label {
+.form-labell {
     display: inline-block;
     font-size: 0.8rem;
     margin-bottom: 6px;
@@ -184,13 +184,13 @@
     font-weight: bold;
     cursor: pointer;
 }
-.form-inputs {
+.form-inputss {
     margin-bottom: 0.5rem;
     width: 60%;
     margin-left: 300px;
   }
 
-.form-inputs p {
+.form-inputss p {
     font-size: 0.8rem;
     margin-top: 0.5rem;
     color: #f00e0e;
@@ -199,7 +199,7 @@
     margin-bottom: 0.5rem;
     width: 80%;
   } */
-  .form-input {
+  .form-inputt {
     display: block;
     padding-left: 10px;
     outline: none;
@@ -209,17 +209,17 @@
     border: none;
     margin-bottom: 0.5rem;
   }
-  .form-input::placeholder {
+  .form-inputt::placeholder {
     color: #595959;
     font-size: 12px;
   }
 
-  .checkbox-label {
+  .checkbox-labell {
       color: #fff;
       margin-left: 3px;
   }
 
-  .form-input-btn {
+  .form-input-btnn {
     width: 147px;
     height: 40px;
     margin-top: 20px;
@@ -235,7 +235,7 @@
     border-radius: 3px; 
     margin-left: 68%;
   } 
-  .form-input-btn:hover {
+  .form-input-btnn:hover {
     cursor: pointer;
     background: #595959;
     transition-duration: .5s;
@@ -247,7 +247,7 @@
   .items-in-select{
     color: #595959;
   }
-  .form-input-text-area{
+  .form-input-text-areaa{
     display: block;
     padding-left: 10px;
     outline: none;
