@@ -1,133 +1,153 @@
-import { Link } from 'react-router-dom';
-import Footer2 from '../../Components/Footer/Footer2/Footer2';
-import NavBar from '../../Components/NavBar/NavBar';
+import { Link } from "react-router-dom";
+import Footer2 from "../../Components/Footer/Footer2/Footer2";
+import NavBar from "../../Components/NavBar/NavBar";
 import logo from "../../Images/logo.png";
+import "./ContactUs.css";
+import { FaPhoneAlt, FaMailBulk } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
     <div className="Main-container">
       <div className="Navigation-container">
-          <NavBar />
-          <Link to="/">
-            <img src={logo} alt="logo" className="nav-logo-each"/>
-          </Link>
+        <NavBar />
+        <Link to="/">
+          <img src={logo} alt="logo" className="nav-logo-each" />
+        </Link>
       </div>
 
-      {/* Body one */}
-      <div className="StandardLines-body1-container">
-            <div className="StandardLines-image-container">
-              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_413/https://metropolitanaddis.com/wp-content/uploads/2019/07/standard-aparatama-logo-e1590674361378.png" />
-            </div>
-            <div className="StandardLines-body1-paragraph-container">
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments are built with equivalent quality 
-              to that of luxury apartments. Construction processes, 
-              material quality and supervision are not compromised. 
-              Metropolitan’s luxury constructions are done by experienced 
-              international engineers with strict supervision.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Location of standard apartments may not be as convenient 
-              as luxury home but they’re usually located in up and coming 
-              neighborhoods which makes it suitable for residential apartments.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments offer standard features like a generator, 
-              elevator, water tank, parking, collective installations, power 
-              back-up, and secure access.
-              </p>
-              <p className='StandardLines-body1-paragraph'>
-              Standard apartments come with limited but up to standard amenities 
-              and appliances. Even though amenities like gym & clubhouses aren’t 
-              available like metropolitan’s luxury houses for sale in Addis Ababa, 
-              it comes with kitchen cabinet finishes, floor tiles, water insulation 
-              features, marble finish, and different fixtures.
-              </p>
-            </div>   
+      <div className="contact-us-main-container">
+        <div className="contact-us-inner-container-title">
+          <h3 className="contact-us-inner-title-contact">Contact</h3>
+        </div>
+
+        <div className="contact-us-inner-container">
+          <ul className="contact-us-inner-container-lists">
+            <li>
+              <div className="contact-us-inner-container-image">
+                <img src="https://metropolitanaddis.com/wp-content/uploads/2019/07/metpopolitan-logolar-6-219x300.png" />
+              </div>
+
+              <h3 className="contact-us-first-column-title">
+                Addis Ababa, Ethiopia
+              </h3>
+
+              <h4 className="contact-us-first-column-adress">
+                Bole, Around Friendship Hotel, Infront of Istanbul Restaurant.
+              </h4>
+
+              <h4 className="contact-us-first-column-email-adress">
+                <FaMailBulk /> &nbsp; info@metropolitanaddis.com
+              </h4>
+              <h4 className="contact-us-first-column-no ">
+                <FaPhoneAlt />
+                &nbsp; +251 973 30 30 30
+              </h4>
+            </li>
+            <li className="contact-us-second-column">
+              <h4 className="eth-office">ETHIOPIA OFFICE</h4>
+              <h4 className="eth-office-no">+251 973 30 30 30</h4>
+              <h4 className="usa-office">UNITED STATE OFFICE</h4>
+
+              <h4 className="usa-office-adress">
+                2875 WRay Rd#6-444 Chandler, AZ 85224
+              </h4>
+              <h4 className="usa-office-no">+1 480 280 2242</h4>
+              <h4 className="usa-email">marketing@metropolitanaddis.com</h4>
+              <h2 className="work-hours">WORK HOURS:</h2>
+              <h4 className="first-work-hours">
+                Mon-Fri: 8.00 – 17.00 Ethiopia Time Zone
+              </h4>
+              <h4 className="second-work-hours">
+                Mon-Fri: 8.00 – 17.00 Arizona Time Zone
+              </h4>
+            </li>
+          </ul>
+        </div>
+
+        {/* second column */}
+        <div className="contact-us-inner-container">
+          <h2 className="have-question-header">Have A Question? Contact Us</h2>
+          <div className="form-inputs">
+            <label htmlFor="username" className="form-label">
+              Name
+            </label>
+            <input
+              type="text"
+              name="firstname"
+              className="form-input"
+              placeholder="Name"
+            />
+          </div>
+          <div className="form-inputs">
+            <label htmlFor="email" className="form-label">
+              Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              className="form-input"
+              placeholder="Email"
+            />
+          </div>
+          <div className="form-inputs">
+            <label htmlFor="lastname" className="form-label">
+              Subject
+            </label>
+            <input
+              type="text"
+              name="lastname"
+              className="form-input"
+              placeholder="Subject (Optional)"
+            />
+          </div>
+          <div className="form-inputs">
+            <label htmlFor="country" className="form-label">
+              How did you find us?
+            </label>
+            <select className="form-input">
+              <option value="Facebook" className="items-in-select">
+                Facebook
+              </option>
+              <option value="Instagram" className="items-in-select">
+                Instagram
+              </option>
+              <option value="Linkdin" className="items-in-select">
+                Linkdin
+              </option>
+              <option value="Search" className="items-in-select">
+                Google Search
+              </option>
+              <option value="referral" className="items-in-select">
+                Friend referral
+              </option>
+              <option value="Event" className="items-in-select">
+                Event
+              </option>
+            </select>
           </div>
 
-          {/* Body Two */}
-          <div className="StandardLines-body2-container">
-            <div className="StandardLines-body2-upper-image">
-                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_768/https://metropolitanaddis.com/wp-content/uploads/2019/07/catalogue-sticker-768x656.png" />
-            </div>
-            <div className="StandardLines-body2-paragraph-container">
-              <p className='StandardLines-p-body2-header'>WESTVIEW STANDARD APARTMENTS</p>
-              <p className='StandardLines-p'>
-                Looking for comfort and convenience without the price tag?
-              </p>
-              <p className='StandardLines-p'>
-                Metropolitan’s Westview Standard Apartments for sale in Addis Ababa 
-                is an international standard project which meets all of Metropolitan’s 
-                high-quality standards. The city’s best construction meets an ergonomic 
-                design at Westview Standard Apartments to provide you with functional and 
-                convenient homes.
-              </p>
-              <p className='StandardLines-p'>
-              If you are looking for  western quality, comfort and security which is affordable, 
-              Westview Standard Apartments is your best option
-              </p>
-            </div>
-
-            <div className="StandardLines-body2-view-detail">
-              <button className='StandardLines-body2-view-detail-button'>
-                    View Details 
-              </button>
-            </div>
+          <div className="form-inputs">
+            <label htmlFor="phonenumber" className="form-label">
+              Message
+            </label>
+            <textarea
+              type="textarea"
+              className="form-input-text-area"
+              placeholder="Message"
+            />
           </div>
 
-           {/* Body three */}
-          
-           <div className="LuxuryLines-body6-title">
-                <h3>More About Metropolitan Luxury Homes</h3>
-            </div>
-            <div className="LuxuryLines-body6-container">
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1500,h_1125/https://metropolitanaddis.com/wp-content/uploads/2019/09/midtown-living-room.jpg" className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">4 THINGS THAT MAKE A MODERN APARTMENT "MODERN"</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200,h_750/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">WHAT ARE STANDARD APARTMENTS FOR SALE IN ETHIOPIA?</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://metropolitanaddis.com/wp-content/uploads/2018/10/katalog-baski_Page_17.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF ELEVETORS-IN HOME FOR SALE IN ADDIS ABABA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2048,h_1365/https://metropolitanaddis.com/wp-content/uploads/2019/07/294A8540.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF APARTMENTS IN ETHIPIA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-              <ul className="more-luxury-homes-list">
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1000,h_625/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__4.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">WESTVIEW STANDARD APARTMENT BRAND NEW HOUSE FOR SALE IN ETHIOPIA</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-                  <li className="more-luxury-homes-each-list">
-                    <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_747,h_779/https://metropolitanaddis.com/wp-content/uploads/2019/08/park.jpg" style={{ width: '400px' ,height: '300px' }} className="luxury-homes-home-images"/>
-                    <h3 className="luxury-homes-title">TYPES OF PARKING SPACES IN LUXURY APARTMENTS</h3>
-                    <button className="luxury-homes-read-more-btn">Read More</button>
-                  </li>
-              </ul>
-          </div>
-
-
-
+          <button className="form-input-btn" type="submit">
+            Send Message
+          </button>
+        </div>
+      </div>
 
       <div className="Footer-container">
-              <Footer2 />
-          </div>
+        <Footer2 />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactUs
+export default ContactUs;

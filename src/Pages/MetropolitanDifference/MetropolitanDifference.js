@@ -50,12 +50,7 @@ const MetropolitanDifference = () => {
                 are built with very high quality and strict supervision. At
                 Metropolitan, all construction material, fixtures and appliances
                 are carefully selected to provide the best home for you and your
-                family Metropolitan Real Estate always strives to give you a
-                modern and luxurious life in the African capital Addis Ababa.
-                Luxury homes are built with very high quality and strict
-                supervision. At Metropolitan, all construction material,
-                fixtures and appliances are carefully selected to provide the
-                best home for you and your family
+                family.
               </p>
             </div>
             <div className="inside-text-list-title">
@@ -180,17 +175,7 @@ const MetropolitanDifference = () => {
                 Construction processes, material quality and supervision are not
                 compromised. Just like Metropolitans luxury constructions are
                 done by experienced international engineers with strict
-                supervision. Standard apartments are built with equivalent
-                quality to that of luxury apartments but with the element of
-                affordability. Construction processes, material quality and
-                supervision are not compromised. Just like Metropolitans luxury
-                constructions are done by experienced international engineers
-                with strict supervision. Standard apartments are built with
-                equivalent quality to that of luxury apartments but with the
-                element of affordability. Construction processes, material
-                quality and supervision are not compromised. Just like
-                Metropolitans luxury constructions are done by experienced
-                international engineers with strict supervision.
+                supervision.
               </p>
             </div>
             <div className="inside-text-list-title-body2">

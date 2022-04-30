@@ -175,122 +175,290 @@ const AboutUs = () => {
       </div>
 
       {/* slider part */}
+      <h2 className="slider-title">METROPOLITAN MILESTONES</h2>
       <div className="carousel">
         <Carousel className="carousel-section">
           <Carousel.Item>
             <ul className="carousel-lists">
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  Our first luxury villa sites were constructed in Cubuklu
+                  valley houses in Istanbul, Turkey.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-            </ul>
-          </Carousel.Item>
-          <Carousel.Item>
-            <ul className="carousel-lists">
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-            </ul>
-          </Carousel.Item>
-          <Carousel.Item>
-            <ul className="carousel-lists">
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  After completion of several projects in Turkey, we expanded
+                  our services to USA and Ethiopia. In 2009, Metropolitan’s
+                  first luxury villa project in Arizona, USA was completed.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
             </ul>
           </Carousel.Item>
           <Carousel.Item>
             <ul className="carousel-lists">
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  Over a few years we operated in hundreds of projects. In 2014
+                  we celebrated 400 properties built/rebuilt in USA alone. We
+                  also continued on developing in Turkey.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  Within twelve months, our first project was completed. The
+                  following year, our second real estate project in Ethiopia
+                  commenced. This project, named Bole Midtown, is another luxury
+                  apartment project located in the heart of Bole.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-            </ul>
-          </Carousel.Item>
-          <Carousel.Item>
-            <ul className="carousel-lists">
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-            </ul>
-          </Carousel.Item>
-          <Carousel.Item>
-            <ul className="carousel-lists">
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  In 2019, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
             </ul>
           </Carousel.Item>
           <Carousel.Item>
             <ul className="carousel-lists">
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  Now In addition to Metropolitan Tower, Metropolitan has
+                  launched a Westview Standard Apartments for sale located at ‘3
+                  Kutr mazoria’.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  Central Tower is a unique project located in the heart of
+                  Addis Ababa with its proximity to the AU headquarters, major
+                  roads, great city view and considered to be in a rapidly
+                  developing area.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
             </ul>
           </Carousel.Item>
           <Carousel.Item>
             <ul className="carousel-lists">
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  In 2016, we launched our first luxury apartment project in
+                  Addis Ababa, Ethiopia located at Sarbet. The project is a
+                  living proof that we are truly an Ethiopian luxury real estate
+                  company who is to be relied on for quality and on time
+                  delivery.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  In 2016, we launched our first luxury apartment project in
+                  Addis Ababa, Ethiopia located at Sarbet. The project is a
+                  living proof that we are truly an Ethiopian luxury real estate
+                  company who is to be relied on for quality and on time
+                  delivery.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
             </ul>
           </Carousel.Item>
           <Carousel.Item>
             <ul className="carousel-lists">
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  In 2019, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
               <div className="each-list-container">
-                <li className="carousel-each-lists">hello</li>
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+            </ul>
+          </Carousel.Item>
+          <Carousel.Item>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  Over a few years we operated in hundreds of projects. In 2014
+                  we celebrated 400 properties built/rebuilt in USA alone. We
+                  also continued on developing in Turkey.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  helWe built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+            </ul>
+          </Carousel.Item>
+          <Carousel.Item>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  In 2019, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+            </ul>
+          </Carousel.Item>
+          <Carousel.Item>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  In 2019, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  In 2019, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+            </ul>
+          </Carousel.Item>
+          <Carousel.Item>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  In 2019, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  In 2019, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2019</h3>
+                </li>
               </div>
             </ul>
           </Carousel.Item>
@@ -340,7 +508,8 @@ const AboutUs = () => {
         </ul>
       </div>
 
-      <div className="blog-title">
+      {/* About us blog */}
+      <div className="blog-title-about-us">
         <h3 className="blog-text-about">Blog</h3>
         <h4>More about Metropolitan’s luxury homes</h4>
       </div>

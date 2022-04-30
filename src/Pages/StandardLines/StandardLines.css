@@ -5,39 +5,45 @@
     text-align: center;
 }
 .StandardLines-body1-paragraph-container{
-    width:1000px;
-    margin-left:200px ;
+    width:700px;
+    margin-left:400px ;
     margin-top: 30px;
     color: #f7f7f7;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    line-height: 30px;
 }
 /* body two */
-.StandardLines-body2-container {
-    background-image: url('https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg');
-    background-size: cover;
+.StandardLines-body2-container{
+    height: 600px;
+    
+}
+.StandardLines-background-image {
     background-repeat: no-repeat;
-    height: 850px;
+    height: 600px;
+    width: 2800px;
 }
 .StandardLines-body2-upper-image {
     width: 400px;
     height: 400px;
     margin-left: 500px;
-    padding-top: 200px;
+    margin-top: -500px;
+    cursor: pointer;
 }
 .StandardLines-p-body2-header {
-    color: black;
-    font-weight: bolder;
-    margin-left: 10px;
+    margin-left: 5px;
+    color: #03192b;
+    font-family: "Barlow", Sans-serif;
+    font-size: 1.9em;
+    font-weight: normal;
 }
 .StandardLines-body2-paragraph-container {
     line-height: 20px;
-    color: #fff;
+    color: #7A7A7A;
     font-weight: bolder;
-    margin-top: 100px;
-    width: 700px;
+    margin-top: -470px;
+    width: 500px;
+    margin-left: 950px;
 }
 .StandardLines-p {
     margin-bottom: -10px;
@@ -45,7 +51,7 @@
     font-weight: bolder;
 }
 .StandardLines-body2-view-detail-button {
-    border: 2px solid #fff;
+
     background-color: rgba(252,221,24,0);
     color: #fff;
     padding: 14px 28px;
@@ -53,6 +59,10 @@
     cursor: pointer;
     font-weight: bold;
     border-radius: 5px;
-    margin-left: 500px;
-    margin-top: 20px;
+    margin-left: 1300px;
+    margin-top: 10px;
+    background-color: #03192b;
+}
+h5 {
+    margin-top: 10px;
 }

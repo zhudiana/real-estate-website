@@ -177,11 +177,18 @@
  }
 
  /* carousel */
+ .slider-title {
+     color: #03192b;
+     font-weight: 600;
+     font-family: "Roboto", sans-serif;
+     text-align: center;
+     padding-top: 100px;
+ }
 .carousel {
-    height: 600px;
+    height: 500px;
     background-color: #fff;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 .carousel-section {
     background-color: #fff;
@@ -190,25 +197,44 @@
 }
 .carousel-lists {
     display: flex;
-    margin-left: 200px;
+    margin-left: 160px;
     padding-bottom: 50px;
+    
 }
 .carousel-each-lists {
-    color: #fff;
+    font-size: 1.3em;
+    font-style: italic;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
 }
 .each-list-container {
     background-color: #03192b;
-    margin-right: 10px;
+    margin-right: 40px;
     width: 350px;
-    height: 360px;
+    height: 400px;
 }
-.carousel-control-prev-icon {
-    color: red;
+.carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(100%);
+}
+.carousel-indicators {
+    /* border-radius: 12px;
+    width: 10px;
+    height: 10px; */
+    /* background-color: red; */
+   
+
+}
+
+.span-one {
+    margin-top: 30px;
 }
 
 /* */
 .message-from-president-section {
-    height: 600px;
+    height: 650px;
     width: 100%;
     background-color: #03192b;
 }
@@ -223,7 +249,7 @@
     
 }
 .messages-title {
-    padding-left: 100px;
+    padding-left: 160px;
 }
 
 .messages-text{
@@ -242,8 +268,18 @@
     font-weight: 500;
 }
 .name-of-pres {
-    padding-left: 150px;
+    padding-left: 50px;
     color: #fff;
 }
+
+.blog-title-about-us {
+    background-color: #0b1b35;
+    color: #fff;
+    margin-bottom: -10px ;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
 
 
