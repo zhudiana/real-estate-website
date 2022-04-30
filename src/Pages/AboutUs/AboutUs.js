@@ -179,34 +179,120 @@ const AboutUs = () => {
         <Carousel className="carousel-section">
           <Carousel.Item>
             <ul className="carousel-lists">
-              <li className="carousel-each-lists">hello</li>
-              <li>hello</li>
-              <li>hello</li>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
             </ul>
           </Carousel.Item>
           <Carousel.Item>
-            <p>hello</p>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+            </ul>
           </Carousel.Item>
           <Carousel.Item>
-            <p>hello</p>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+            </ul>
           </Carousel.Item>
           <Carousel.Item>
-            <p>hello</p>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+            </ul>
           </Carousel.Item>
           <Carousel.Item>
-            <p>hello</p>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+            </ul>
           </Carousel.Item>
           <Carousel.Item>
-            <p>hello</p>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+            </ul>
           </Carousel.Item>
           <Carousel.Item>
-            <p>hello</p>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+            </ul>
           </Carousel.Item>
           <Carousel.Item>
-            <p>hello</p>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+            </ul>
           </Carousel.Item>
           <Carousel.Item>
-            <p>hello</p>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">hello</li>
+              </div>
+            </ul>
           </Carousel.Item>
         </Carousel>
       </div>

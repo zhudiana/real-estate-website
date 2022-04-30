@@ -175,6 +175,8 @@
      font-weight: 600;
      text-align: center;
  }
+
+ /* carousel */
 .carousel {
     height: 600px;
     background-color: #fff;
@@ -182,11 +184,29 @@
     padding-top: 50px;
 }
 .carousel-section {
-    background-color: #03192b;
+    background-color: #fff;
     height: 400px;
     width: 100%;
-   
 }
+.carousel-lists {
+    display: flex;
+    margin-left: 200px;
+    padding-bottom: 50px;
+}
+.carousel-each-lists {
+    color: #fff;
+}
+.each-list-container {
+    background-color: #03192b;
+    margin-right: 10px;
+    width: 350px;
+    height: 360px;
+}
+.carousel-control-prev-icon {
+    color: red;
+}
+
+/* */
 .message-from-president-section {
     height: 600px;
     width: 100%;
