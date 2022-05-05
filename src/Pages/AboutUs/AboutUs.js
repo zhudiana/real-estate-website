@@ -100,7 +100,7 @@ const AboutUs = () => {
             <div className="icon-in-between">
               <FaCalendarAlt className="icon-itself" />
               <h3>
-                <CountUp end={26} />
+                <CountUp end={26} duration={5} />
               </h3>
               <p className="below-icon-text">Years Experience</p>
             </div>
@@ -108,35 +108,35 @@ const AboutUs = () => {
               <FaUsers className="icon-itself" />
               <h3>
                 {" "}
-                <CountUp end={4500} />
+                <CountUp end={4500} duration={3} />
               </h3>
               <p className="below-icon-text">Employees</p>
             </div>
             <div className="icon-in-between">
               <FaHome className="icon-itself" />
               <h3>
-                <CountUp end={1} />
+                <CountUp end={1} duration={5} />
               </h3>
               <p className="below-icon-text">Million Sq.m. Luxury Housing</p>
             </div>
             <div className="icon-in-between">
               <FaBuilding className="icon-itself" />
               <h3>
-                <CountUp end={600} />
+                <CountUp end={600} duration={5} />
               </h3>
               <p className="below-icon-text">Thousand Sq.m Malls & Office</p>
             </div>
             <div className="icon-in-between">
               <FaCheck className="icon-itself" />
               <h3>
-                <CountUp end={450} />+
+                <CountUp end={450} duration={5} />+
               </h3>
               <p className="below-icon-text">Completed Project</p>
             </div>
             <div className="icon-in-between">
               <FaClock className="icon-itself" />
               <h3>
-                <CountUp end={9} />
+                <CountUp end={9} duration={5} />
               </h3>
               <p className="below-icon-text">Million Man Hours</p>
             </div>
@@ -533,15 +533,19 @@ const AboutUs = () => {
       {/* blog */}
       <div className="LuxuryLines-body6-container">
         <ul className="more-luxury-homes-list">
+          {/* blog 1 */}
           <li className="more-luxury-homes-each-list">
             <img
               src="https://metropolitanaddis.com/wp-content/uploads/2022/04/f.jpg"
               style={{ width: "400px", height: "300px" }}
               className="luxury-homes-home-images"
             />
-            <h3 className="luxury-homes-title">
-              How to Make a Winning Offer on an Apartment
-            </h3>
+            <Link to="/Blog1">
+              {" "}
+              <h3 className="luxury-homes-title">
+                How to Make a Winning Offer on an Apartment
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Today’s Apartment buyers face a strong sellers’ market, meaning
               there are many active buyers competing for a relatively low number
@@ -549,15 +553,20 @@ const AboutUs = () => {
             </p>
             <button className="luxury-homes-read-more-btn">Read More</button>
           </li>
+          {/* blog 2 */}
           <li className="more-luxury-homes-each-list">
             <img
               src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600,h_400/https://metropolitanaddis.com/wp-content/uploads/2022/04/Closing-Cost.jpg"
               style={{ width: "400px", height: "300px" }}
               className="luxury-homes-home-images"
             />
-            <h3 className="luxury-homes-title">
-              Don’t Forget to Budget For Closing Costs While Buying An Apartment
-            </h3>
+            <Link to="/Blog2">
+              <h3 className="luxury-homes-title">
+                Don’t Forget to Budget For Closing Costs While Buying An
+                Apartment
+              </h3>
+            </Link>
+
             <p className="luxury-homes-paragraph">
               Purchasing an apartment demands a large financial investment,
               which many prospective buyers are unaware of. Although it’s a
@@ -565,11 +574,13 @@ const AboutUs = () => {
             </p>
             <button className="luxury-homes-read-more-btn">Read More</button>
           </li>
+
           <li>
             <button className="luxury-homes-read-more-btn">See More</button>
           </li>
         </ul>
         <ul className="more-luxury-homes-list">
+          {/* blog 3 */}
           <li className="more-luxury-homes-each-list">
             <img
               src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_509/https://metropolitanaddis.com/wp-content/uploads/2022/04/Blog-22.jpg"
@@ -585,6 +596,7 @@ const AboutUs = () => {
             </p>
             <button className="luxury-homes-read-more-btn">Read More</button>
           </li>
+          {/* blog 4 */}
           <li className="more-luxury-homes-each-list">
             <img
               src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_447/https://metropolitanaddis.com/wp-content/uploads/2022/03/What-Does-a-Builders-Warranty-Cover.jpg"
@@ -603,6 +615,7 @@ const AboutUs = () => {
           </li>
         </ul>
         <ul className="more-luxury-homes-list">
+          {/* blog 5 */}
           <li className="more-luxury-homes-each-list">
             <img
               src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_427/https://metropolitanaddis.com/wp-content/uploads/2022/03/APa.png"
@@ -620,6 +633,7 @@ const AboutUs = () => {
             </p>
             <button className="luxury-homes-read-more-btn">Read More</button>
           </li>
+          {/* blog 6 */}
           <li className="more-luxury-homes-each-list">
             <img
               src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_426/https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"

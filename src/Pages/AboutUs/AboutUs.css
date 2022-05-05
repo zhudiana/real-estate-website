@@ -221,13 +221,10 @@
     filter: invert(100%);
 }
 .carousel-indicators {
-    /* border-radius: 12px; */
-    width: 1000px;
-    height: 10px;
-    background-color: red;
-    top: 430px;
-    color: black;
+    border-radius: 12px;
+    top: 380px;
 }
+
 
 
 .span-one {

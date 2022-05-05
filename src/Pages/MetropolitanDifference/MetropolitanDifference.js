@@ -18,7 +18,7 @@ const MetropolitanDifference = () => {
       {/* Body one */}
       <div className="Metropolitan-difference-container">
         <div className="metropolitan-header">
-          <h3>The Difference Between Luxury And Standard Apartments</h3>
+          <h1>The Difference Between Luxury And Standard Apartments</h1>
         </div>
         <div className="metropolitan-paragraph">
           <p className="metropolitan-p">

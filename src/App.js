@@ -8,6 +8,7 @@ import MetropolitanDifference from "./Pages/MetropolitanDifference/MetropolitanD
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import NavBar from "./Components/NavBar/NavBar";
 import ScrollToTop from "./Components/ScrollToTop";
+import BlogAll from "./Pages/AboutUs/AboutUsBlogs/BlogAll";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             element={<MetropolitanDifference />}
           />
           <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/BlogAll" element={<BlogAll />} />
         </Routes>
       </BrowserRouter>
     </div>
