@@ -101,7 +101,7 @@
 
 /* in between */
  .in-between {
-    height: 410px;
+     height: 410px;
      background-size: cover;
      background-color: #fff;
  }
@@ -113,13 +113,13 @@
  }
  .icons-listed-in-between {
      display: flex;
-     padding-left: 150px;
+     margin-left: 150px;
  }
  .icon-in-between {
-     width: 200px;
+     width: 120px;
      height: 57px;
      text-align: center;
-     margin-right: 90px;
+     margin-right: 100px;
      color: #03192b;
      font-size: 15px;
      font-weight: 600;
@@ -135,8 +135,8 @@
     font-family: "Roboto Slab", sans-serif;
     text-align: center;
     margin-bottom: 4px;
-    
  }
+
 
 
 /* body three */
@@ -206,8 +206,9 @@
     font-style: italic;
     line-height: 1.5;
     color: #ffffff;
-    text-align: center;
     margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .each-list-container {
     background-color: #03192b;
@@ -220,16 +221,29 @@
     filter: invert(100%);
 }
 .carousel-indicators {
-    /* border-radius: 12px;
-    width: 10px;
-    height: 10px; */
-    /* background-color: red; */
-   
-
+    /* border-radius: 12px; */
+    width: 1000px;
+    height: 10px;
+    background-color: red;
+    top: 430px;
+    color: black;
 }
 
+
 .span-one {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+.span-two {
+    color: #876718;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 0.9em;
+    font-family: "Roboto", sans-serif;
+    margin-left: 100px;
+    
 }
 
 /* */

@@ -24,7 +24,9 @@ const ContactUs = () => {
           <ul className="contact-us-inner-container-lists">
             <li>
               <div className="contact-us-inner-container-image">
-                <img src="https://metropolitanaddis.com/wp-content/uploads/2019/07/metpopolitan-logolar-6-219x300.png" />
+                <Link to={"/"}>
+                  <img src="https://metropolitanaddis.com/wp-content/uploads/2019/07/metpopolitan-logolar-6-219x300.png" />
+                </Link>
               </div>
 
               <h3 className="contact-us-first-column-title">

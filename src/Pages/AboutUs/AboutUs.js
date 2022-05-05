@@ -6,17 +6,23 @@ import "./AboutUs.css";
 import Footer2 from "../../Components/Footer/Footer2/Footer2";
 import { Carousel } from "react-bootstrap";
 import CountUp from "react-countup";
+import Aos from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 import {
   FaCalendarAlt,
   FaUsers,
   FaHome,
   FaBuilding,
   FaCheck,
-  FaWatch,
   FaClock,
 } from "react-icons/fa";
 
 const AboutUs = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="Main-container">
       <div className="Navigation-container">
@@ -58,6 +64,7 @@ const AboutUs = () => {
           <ul className="column-list">
             <li className="column-each-list-image">
               <img
+                data-aos="fade-up"
                 src="https://metropolitanaddis.com/wp-content/uploads/2021/12/355-3551250_goals-png-clipart-goal-icon-transparent-png-150x150.png"
                 className="image-one"
               />
@@ -70,7 +77,10 @@ const AboutUs = () => {
           </ul>
           <ul className="column-list">
             <li className="column-each-list-image">
-              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_130,h_118/https://metropolitanaddis.com/wp-content/uploads/2021/11/iconPicture1.png" />
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_130,h_118/https://metropolitanaddis.com/wp-content/uploads/2021/11/iconPicture1.png"
+                data-aos="fade-up"
+              />
             </li>
             <p className="column-paragraph">
               Our Vision is to become an innovative company providing
@@ -143,31 +153,46 @@ const AboutUs = () => {
         <div className="AboutUs-Column-lists2">
           <ul className="column-list2">
             <li className="column-each-list2">
-              <img src="https://metropolitanaddis.com/wp-content/uploads/2021/12/time.png" />
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2021/12/time.png"
+                data-aos="fade-up"
+              />
             </li>
             <h4>On-Time Delivery</h4>
           </ul>
           <ul className="column-list2">
             <li className="column-each-list2">
-              <img src="https://metropolitanaddis.com/wp-content/uploads/2021/11/quality.png" />
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2021/11/quality.png"
+                data-aos="fade-up"
+              />
             </li>
             <h4>Quality</h4>
           </ul>
           <ul className="column-list2">
             <li className="column-each-list2">
-              <img src="https://metropolitanaddis.com/wp-content/uploads/2021/11/home.png" />
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2021/11/home.png"
+                data-aos="fade-up"
+              />
             </li>
             <h4>Location</h4>
           </ul>
           <ul className="column-list2">
             <li className="column-each-list2">
-              <img src="https://metropolitanaddis.com/wp-content/uploads/2021/11/ful.png" />
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2021/11/ful.png"
+                data-aos="fade-up"
+              />
             </li>
             <h4>Full features and facilities</h4>
           </ul>
           <ul className="column-list2">
             <li className="column-each-list2">
-              <img src="https://metropolitanaddis.com/wp-content/uploads/2021/11/high.png" />
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2021/11/high.png"
+                data-aos="fade-up"
+              />
             </li>
             <h4>High return on investment</h4>
           </ul>
@@ -186,7 +211,7 @@ const AboutUs = () => {
                   that same year, our Luxury apartment construction was
                   completed in Evidea, Istanbul.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2006</h3>
                 </li>
               </div>
               <div className="each-list-container">
@@ -194,7 +219,7 @@ const AboutUs = () => {
                   Our first luxury villa sites were constructed in Cubuklu
                   valley houses in Istanbul, Turkey.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2007</h3>
                 </li>
               </div>
               <div className="each-list-container">
@@ -203,7 +228,7 @@ const AboutUs = () => {
                   our services to USA and Ethiopia. In 2009, Metropolitan’s
                   first luxury villa project in Arizona, USA was completed.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2008</h3>
                 </li>
               </div>
             </ul>
@@ -216,17 +241,16 @@ const AboutUs = () => {
                   we celebrated 400 properties built/rebuilt in USA alone. We
                   also continued on developing in Turkey.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2010</h3>
                 </li>
               </div>
               <div className="each-list-container">
                 <li className="carousel-each-lists">
                   Within twelve months, our first project was completed. The
                   following year, our second real estate project in Ethiopia
-                  commenced. This project, named Bole Midtown, is another luxury
-                  apartment project located in the heart of Bole.
+                  commenced.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2012</h3>
                 </li>
               </div>
               <div className="each-list-container">
@@ -235,7 +259,7 @@ const AboutUs = () => {
                   Ababa, Bole. This project, Metropolitan Tower, is a modern
                   apartment built with luxury standards.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2013</h3>
                 </li>
               </div>
             </ul>
@@ -248,17 +272,16 @@ const AboutUs = () => {
                   launched a Westview Standard Apartments for sale located at ‘3
                   Kutr mazoria’.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2014</h3>
                 </li>
               </div>
               <div className="each-list-container">
                 <li className="carousel-each-lists">
                   Central Tower is a unique project located in the heart of
                   Addis Ababa with its proximity to the AU headquarters, major
-                  roads, great city view and considered to be in a rapidly
-                  developing area.
+                  roads, great city view.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2015</h3>
                 </li>
               </div>
               <div className="each-list-container">
@@ -267,7 +290,7 @@ const AboutUs = () => {
                   that same year, our Luxury apartment construction was
                   completed in Evidea, Istanbul.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2016</h3>
                 </li>
               </div>
             </ul>
@@ -277,12 +300,9 @@ const AboutUs = () => {
               <div className="each-list-container">
                 <li className="carousel-each-lists">
                   In 2016, we launched our first luxury apartment project in
-                  Addis Ababa, Ethiopia located at Sarbet. The project is a
-                  living proof that we are truly an Ethiopian luxury real estate
-                  company who is to be relied on for quality and on time
-                  delivery.
+                  Addis Ababa, Ethiopia located at Sarbet.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2017</h3>
                 </li>
               </div>
               <div className="each-list-container">
@@ -291,18 +311,15 @@ const AboutUs = () => {
                   that same year, our Luxury apartment construction was
                   completed in Evidea, Istanbul.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2018</h3>
                 </li>
               </div>
               <div className="each-list-container">
                 <li className="carousel-each-lists">
                   In 2016, we launched our first luxury apartment project in
-                  Addis Ababa, Ethiopia located at Sarbet. The project is a
-                  living proof that we are truly an Ethiopian luxury real estate
-                  company who is to be relied on for quality and on time
-                  delivery.
+                  Addis Ababa, Ethiopia located at Sarbet.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2016</h3>
                 </li>
               </div>
             </ul>
@@ -333,7 +350,7 @@ const AboutUs = () => {
                   that same year, our Luxury apartment construction was
                   completed in Evidea, Istanbul.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2010</h3>
                 </li>
               </div>
             </ul>
@@ -346,7 +363,7 @@ const AboutUs = () => {
                   we celebrated 400 properties built/rebuilt in USA alone. We
                   also continued on developing in Turkey.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2013</h3>
                 </li>
               </div>
               <div className="each-list-container">
@@ -364,7 +381,7 @@ const AboutUs = () => {
                   that same year, our Luxury apartment construction was
                   completed in Evidea, Istanbul.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2016</h3>
                 </li>
               </div>
             </ul>
@@ -377,7 +394,7 @@ const AboutUs = () => {
                   that same year, our Luxury apartment construction was
                   completed in Evidea, Istanbul.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2017</h3>
                 </li>
               </div>
               <div className="each-list-container">
@@ -395,38 +412,7 @@ const AboutUs = () => {
                   that same year, our Luxury apartment construction was
                   completed in Evidea, Istanbul.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
-                </li>
-              </div>
-            </ul>
-          </Carousel.Item>
-          <Carousel.Item>
-            <ul className="carousel-lists">
-              <div className="each-list-container">
-                <li className="carousel-each-lists">
-                  In 2019, We launched another luxury apartment project in Addis
-                  Ababa, Bole. This project, Metropolitan Tower, is a modern
-                  apartment built with luxury standards.
-                  <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
-                </li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">
-                  We built our first five-star hotel in Novotel, Istanbul. In
-                  that same year, our Luxury apartment construction was
-                  completed in Evidea, Istanbul.
-                  <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
-                </li>
-              </div>
-              <div className="each-list-container">
-                <li className="carousel-each-lists">
-                  In 2019, We launched another luxury apartment project in Addis
-                  Ababa, Bole. This project, Metropolitan Tower, is a modern
-                  apartment built with luxury standards.
-                  <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2013</h3>
                 </li>
               </div>
             </ul>
@@ -444,11 +430,42 @@ const AboutUs = () => {
               </div>
               <div className="each-list-container">
                 <li className="carousel-each-lists">
+                  We built our first five-star hotel in Novotel, Istanbul. In
+                  that same year, our Luxury apartment construction was
+                  completed in Evidea, Istanbul.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2010</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
                   In 2019, We launched another luxury apartment project in Addis
                   Ababa, Bole. This project, Metropolitan Tower, is a modern
                   apartment built with luxury standards.
                   <h4 className="span-one">In</h4>
                   <h3 className="span-two">2019</h3>
+                </li>
+              </div>
+            </ul>
+          </Carousel.Item>
+          <Carousel.Item>
+            <ul className="carousel-lists">
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  In 2019, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2014</h3>
+                </li>
+              </div>
+              <div className="each-list-container">
+                <li className="carousel-each-lists">
+                  In 2012, We launched another luxury apartment project in Addis
+                  Ababa, Bole. This project, Metropolitan Tower, is a modern
+                  apartment built with luxury standards.
+                  <h4 className="span-one">In</h4>
+                  <h3 className="span-two">2012</h3>
                 </li>
               </div>
               <div className="each-list-container">
@@ -457,7 +474,7 @@ const AboutUs = () => {
                   that same year, our Luxury apartment construction was
                   completed in Evidea, Istanbul.
                   <h4 className="span-one">In</h4>
-                  <h3 className="span-two">2019</h3>
+                  <h3 className="span-two">2014</h3>
                 </li>
               </div>
             </ul>
