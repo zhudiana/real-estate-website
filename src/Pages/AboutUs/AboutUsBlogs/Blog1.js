@@ -7,6 +7,9 @@ import {
   FaMailBulk,
   FaArrowRight,
   FaArrowLeft,
+  FaPhoneAlt,
+  FaClock,
+  FaLocationArrow,
 } from "react-icons/fa";
 import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
 
@@ -82,50 +85,62 @@ const Blog1 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Purchasing an apartment demands a large financial investment, which
-          many prospective buyers are unaware of. Although it’s a smart idea to
-          figure exactly how many Apartments you can afford before you start
-          looking, it’s easy to overlook the other costs of the transaction.
+          Today’s Apartment buyers face a strong sellers’ market, meaning there
+          are many active buyers competing for a relatively low number of
+          affordable homes. As a result, knowing how to make a confident and
+          competitive offer on your ideal Apartment is critical.
         </p>
         <p className="blog1-each-blog">
-          Budgeting for <b>closing costs</b> is a key aspect of your total
-          budget when purchasing a home. When buying an apartment, it is
-          important to have a budget and a clear plan for specific homebuying
-          expenditures. Many people focus on saving for a <b>down payment</b>,
-          but budgeting for the closing costs required is important.
+          Here are <b>five tips</b> for success in this critical stage of the
+          homebuying process.
         </p>
-        <h2 className="blog1-blog-title">What Are Closing Costs?</h2>
+        <h2 className="blog1-blog-title">
+          Be real and focus on what you need.
+        </h2>
         <p className="blog1-each-blog">
-          When you close on an Apartment, several fees are due. That typically
-          ranges from <b>2%</b> to <b>5%</b> of the total cost of the Apartment
-          and can include{" "}
-          <b>
-            title insurance, origination fees, underwriting fees, document
-            preparation fees
-          </b>
-          , and more. If you are in the market for an Apartment above this price
-          range, your closing costs could be higher. As mentioned above, closing
-          costs are typically between 2% and 5% of your purchase price.{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real Estate
-            </Link>{" "}
-          </b>
-          helps you to explore your options, discuss the benefits, and take the
-          next step to start your home search.
+          When buying an Apartment or making an offer on a home, from the start,
+          it asking professionals or people who bought recently can help you
+          stay focused on the most important things, especially at times when
+          this process can get emotional for buyers:
+        </p>
+        <p className="blog1-each-blog">
+          Remember to let your Apartment buying friend guide you on your
+          journey, not your emotions. Their support and expertise will keep you
+          from compromising on your must-haves and future financial stability.
+          Metropolitan Real estate offers buyers a consultancy service and a
+          helping hand to lead them to a worthy future Apartment. Metropolitan
+          Real estate should be the expert guide you lean on for advice when
+          you’re ready to provide an offer.
+        </p>
+        <h2 className="blog1-blog-title">Understand Your Finances</h2>
+        <p className="blog1-each-blog">
+          Having a complete understanding of your budget and how much Apartment
+          you can afford is essential. The best way to know this is to make sure
+          early in the home buying process that you have enough income or
+          savings to rely on.
+        </p>
+        <h2 className="blog1-blog-title">Make a Fair Offer</h2>
+        <p className="blog1-each-blog">
+          It’s only natural to want the best deal you can get on an Apartment.
+          However, submitting an offer that is too low may cause the seller to
+          question how serious you are as a buyer, which is also a bad gesture.
+          Don’t make an offer that might get thrown away as soon as it’s
+          received.
+        </p>
+        <h2 className="blog1-blog-title">Stay Flexible in Negotiations</h2>
+        <p className="blog1-each-blog">
+          After submitting an offer, the seller may accept it, reject it, or
+          counter it with their changes. In a competitive market, it’s important
+          to stay nimble throughout the negotiation process. You can strengthen
+          your position with an offer that includes flexible move-in dates, a
+          higher price, or minimal contingencies (conditions you set that the
+          seller must meet for the purchase to be finalized).
         </p>
         <h4 className="blog1-blog-title2">BOTTOM LINE</h4>
         <p className="blog1-each-blog">
-          As <b>Apartments</b> prices are rising and more buyers are finding
-          each other competing in bidding wars, it is more important than ever
-          to make sure your plan includes budgeting for closing costs.{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>{" "}
-          is always ready to make sure you have everything you need to land your
-          dream Apartment.
+          Today’s competitive market makes it more essential than ever to make a
+          big offer on an <b>Apartment</b>. Let us connect to make sure you rise
+          to the top along the way.
         </p>
         <p className="blog1-each-blog">
           Let us connect today, on{" "}
@@ -262,6 +277,39 @@ const Blog1 = () => {
           </li>
         </ul>
       </div>
+      <div className="blog1-contact-content">
+        <h3 className="blog-contact-header">Contact</h3>
+        <ul className="blog1-contact">
+          <li className="blog1-each-contact">
+            <FaPhoneAlt className="blog1-each-contact-first" />
+            &nbsp; 9896
+          </li>
+          <li className="blog1-each-contact">
+            <FaPhoneAlt /> &nbsp;&nbsp;+251 973 30 3030
+          </li>
+          <li className="blog1-each-contact">
+            <FaPhoneAlt />
+            &nbsp;&nbsp; +251 973 40 40 40
+          </li>
+          <li className="blog1-each-contact">
+            <FaMailBulk />
+            &nbsp;&nbsp; info@metropolitanaddis.com
+          </li>
+          <li className="blog1-each-contact">
+            <FaPhoneAlt />
+            &nbsp;&nbsp; +1 480 280 2242
+          </li>
+          <li className="blog1-each-contact">
+            <FaClock />
+            &nbsp;&nbsp; Mon-Fri 08:30 -17:30 EAT Sat 09:30 -13:30 EAT
+          </li>
+          <li className="blog1-each-contact">
+            <FaLocationArrow /> &nbsp;&nbsp;Bole, Around Friendship Hotel,
+            Infront of Istanbul Restaurant Addis Ababa, Ethiopia.
+          </li>
+        </ul>
+      </div>
+
       <div className="blog-footer">
         <AboutUsBlogFooter />
       </div>

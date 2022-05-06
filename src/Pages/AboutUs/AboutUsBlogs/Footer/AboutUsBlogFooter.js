@@ -15,6 +15,7 @@ import {
 } from "react-icons/fa";
 import { useState } from "react";
 import "./AboutUsBlogFooter.css";
+import { Link } from "react-router-dom";
 
 const Footer2 = () => {
   return (
@@ -25,9 +26,48 @@ const Footer2 = () => {
             src="https://metropolitanaddis.com/wp-content/uploads/2021/12/logo_Çalışma-Yüzeyi-3-220x300.png"
             className="Footer-image"
           />
+          <div className="blog-footer-social-media-icons">
+            <FaFacebook className="blog-footer-social-media-icon" />
+            <FaTwitter className="blog-footer-social-media-icon" />
+            <FaLinkedin className="blog-footer-social-media-icon" />
+            <FaInstagram className="blog-footer-social-media-icon" />
+            <FaYoutube className="blog-footer-social-media-icon" />
+          </div>
         </span>
-
-        <ul className="Footer-list">
+        <ul className="blog-Footer-list">
+          <li className="blog1-Footer-each-list-two-header">Navigation</li>
+          <li className="blog1-Footer-each-list-two">
+            <Link to="/" style={{ color: "#7A7A7A" }}>
+              Metropolitan Real Estate
+            </Link>
+          </li>
+          <li className="blog1-Footer-each-list-two">
+            <Link to="/" style={{ color: "#7A7A7A" }}>
+              Metropolitan Luxury Apartments
+            </Link>
+          </li>
+          <li className="blog1-Footer-each-list-two">
+            <Link to="/" style={{ color: "#7A7A7A" }}>
+              Standard Apartments by Metropolitan
+            </Link>
+          </li>
+          <li className="blog1-Footer-each-list-two">
+            <Link to="/" style={{ color: "#7A7A7A" }}>
+              News & Blogs
+            </Link>
+          </li>
+          <li className="blog1-Footer-each-list-two">
+            <Link to="/" style={{ color: "#7A7A7A" }}>
+              About Metropolitan Real Estate
+            </Link>
+          </li>
+          <li className="blog1-Footer-each-list-two">
+            <Link to="/" style={{ color: "#7A7A7A" }}>
+              Contact Us
+            </Link>
+          </li>
+        </ul>
+        <ul className="blog-Footer-list">
           <li className="blog1-Footer-each-list-two-header">
             CONTACT ETHIOPIA
           </li>
@@ -54,50 +94,30 @@ const Footer2 = () => {
             Ababa, Ethiopia{" "}
           </li>
         </ul>
-        <ul className="Footer-list">
+        <ul className="blog-Footer-list">
           <li className="blog1-Footer-each-list-two-header">CONTACT USA</li>
-          <li className="Footer-each-list-three">
+          <li className="blog1-Footer-each-list-three">
             <FaPhone className="blog-icon" />
             +1 480 280 2242
           </li>
-          <li className="Footer-each-list-three">
+          <li className="blog1-Footer-each-list-three">
             <FaMailBulk className="blog-icon" />
             marketing@metropolitanaddis.com
           </li>
-          <li className="Footer-each-list-three">
+          <li className="blog1-Footer-each-list-three">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2875 W Ray Rd
           </li>
-          <li className="Footer-each-list-three">
+          <li className="blog1-Footer-each-list-three">
             <FaLocationArrow className="blog-icon" />
             #6-444 Chandler,
           </li>
-          <li className="Footer-each-list-three">
+          <li className="blog1-Footer-each-list-three">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AZ 85224
           </li>
         </ul>
-        <ul className="Footer-list">
-          <li className="blog1-Footer-each-list-two-header">KEEP IN TOUCH</li>
-          <div className="Footer-list-icons">
-            <li className="Footer-each-list-four">
-              <FaFacebook />
-            </li>
-            <li className="Footer-each-list-four">
-              <FaTwitter />
-            </li>
-            <li className="Footer-each-list-four">
-              <FaLinkedin />
-            </li>
-            <li className="Footer-each-list-four">
-              <FaInstagram />
-            </li>
-            <li className="Footer-each-list-four">
-              <FaYoutube />
-            </li>
-          </div>
-        </ul>
       </div>
-      <div className="Footer-end-container">
-        <p className="Footer-end">
+      <div className="blog-Footer-end-container">
+        <p className="blog-Footer-end">
           Metropolitan Real Estate PLC © All rights reserved
         </p>
       </div>
