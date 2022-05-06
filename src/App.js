@@ -8,7 +8,12 @@ import MetropolitanDifference from "./Pages/MetropolitanDifference/MetropolitanD
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import NavBar from "./Components/NavBar/NavBar";
 import ScrollToTop from "./Components/ScrollToTop";
-import BlogAll from "./Pages/AboutUs/AboutUsBlogs/BlogAll";
+import Blog1 from "./Pages/AboutUs/AboutUsBlogs/Blog1";
+import Blog6 from "./Pages/AboutUs/AboutUsBlogs/Blog6";
+import Blog5 from "./Pages/AboutUs/AboutUsBlogs/Blog5";
+import Blog4 from "./Pages/AboutUs/AboutUsBlogs/Blog4";
+import Blog3 from "./Pages/AboutUs/AboutUsBlogs/Blog3";
+import Blog2 from "./Pages/AboutUs/AboutUsBlogs/Blog2";
 
 function App() {
   return (
@@ -26,7 +31,12 @@ function App() {
             element={<MetropolitanDifference />}
           />
           <Route path="/ContactUs" element={<ContactUs />} />
-          <Route path="/BlogAll" element={<BlogAll />} />
+          <Route path="/Blog1" element={<Blog1 />} />
+          <Route path="/Blog2" element={<Blog2 />} />
+          <Route path="/Blog3" element={<Blog3 />} />
+          <Route path="/Blog4" element={<Blog4 />} />
+          <Route path="/Blog5" element={<Blog5 />} />
+          <Route path="/Blog6" element={<Blog6 />} />
         </Routes>
       </BrowserRouter>
     </div>

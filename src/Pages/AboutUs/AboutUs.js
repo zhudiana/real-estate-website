@@ -535,13 +535,12 @@ const AboutUs = () => {
         <ul className="more-luxury-homes-list">
           {/* blog 1 */}
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://metropolitanaddis.com/wp-content/uploads/2022/04/f.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
             <Link to="/Blog1">
-              {" "}
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2022/04/f.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />{" "}
               <h3 className="luxury-homes-title">
                 How to Make a Winning Offer on an Apartment
               </h3>
@@ -551,16 +550,19 @@ const AboutUs = () => {
               there are many active buyers competing for a relatively low number
               of affordable homes. As a […]{" "}
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/Blog1">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
           {/* blog 2 */}
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600,h_400/https://metropolitanaddis.com/wp-content/uploads/2022/04/Closing-Cost.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
             <Link to="/Blog2">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_600,h_400/https://metropolitanaddis.com/wp-content/uploads/2022/04/Closing-Cost.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+
               <h3 className="luxury-homes-title">
                 Don’t Forget to Budget For Closing Costs While Buying An
                 Apartment
@@ -572,7 +574,9 @@ const AboutUs = () => {
               which many prospective buyers are unaware of. Although it’s a
               smart idea to figure exactly how […]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="Blog2">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
 
           <li>
@@ -582,74 +586,98 @@ const AboutUs = () => {
         <ul className="more-luxury-homes-list">
           {/* blog 3 */}
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_509/https://metropolitanaddis.com/wp-content/uploads/2022/04/Blog-22.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              What are The Benefits of Owning a Second Apartment
-            </h3>
+            <Link to="/Blog3">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_509/https://metropolitanaddis.com/wp-content/uploads/2022/04/Blog-22.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+
+              <h3 className="luxury-homes-title">
+                What are The Benefits of Owning a Second Apartment
+              </h3>
+            </Link>
+
             <p className="luxury-homes-paragraph">
               This is a short summary on the benefit of having more than two
               apartments. […]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="Blog3">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
           {/* blog 4 */}
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_447/https://metropolitanaddis.com/wp-content/uploads/2022/03/What-Does-a-Builders-Warranty-Cover.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              Top 7 things a Builder’s Warranty Covers
-            </h3>
+            <Link to="/Blog4">
+              {" "}
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_447/https://metropolitanaddis.com/wp-content/uploads/2022/03/What-Does-a-Builders-Warranty-Cover.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                Top 7 things a Builder’s Warranty Covers
+              </h3>
+            </Link>
+
             <p className="luxury-homes-paragraph">
               Builder’s warranties vary greatly, so Apartment owners must take
               the time to learn what is covered. Even with new Apartments,
               things can go wrong. As a result, many […]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="Blog4">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
         </ul>
         <ul className="more-luxury-homes-list">
           {/* blog 5 */}
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_427/https://metropolitanaddis.com/wp-content/uploads/2022/03/APa.png"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              When hunting apartment at a distance like a champ, consider this
-              factors
-            </h3>
+            <Link to="/Blog5">
+              {" "}
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_427/https://metropolitanaddis.com/wp-content/uploads/2022/03/APa.png"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                When hunting apartment at a distance like a champ, consider this
+                factors
+              </h3>
+            </Link>
+
             <p className="luxury-homes-paragraph">
               Know-how when you have got to buy an Apartment from across the
               country, start with a winning strategy. Searching for an Apartment
               locally is not without […]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/Blog5">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
           {/* blog 6 */}
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_426/https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              How to Afford Buying an Apartment in Ethiopia
-            </h3>
+            <Link to="/Blog6">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_640,h_426/https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+
+              <h3 className="luxury-homes-title">
+                How to Afford Buying an Apartment in Ethiopia
+              </h3>
+            </Link>
+
             <p className="luxury-homes-paragraph">
               Apartment buying hurdles exist — but research, creativity, and
               flexibility will help you clear them. Apartment buyers today face
               tough challenges. Apartment prices have soared; money doesn’t go
               as far […]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/Blog6">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
         </ul>
       </div>
