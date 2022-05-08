@@ -195,7 +195,7 @@ const Blog4 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog6"
+                to="/Blog3"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -206,7 +206,7 @@ const Blog4 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog2"
+                to="/Blog5"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;

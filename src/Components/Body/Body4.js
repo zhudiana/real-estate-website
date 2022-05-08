@@ -2,6 +2,7 @@ import "./Body.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import SendUsMessageBtn from "../SendUsMessageBtn";
 
 const Body4 = () => {
   return (

@@ -43,10 +43,9 @@ nav{
 
 a.active{
     background-color: #163967;
-    height: 50px;
+    height: 10px;
+    margin-top: 0px;
 }
-
-
 
 .nav-menu-link {
     padding-top: 18px;

@@ -26,6 +26,8 @@
     margin-bottom: 7px;
     
 }
+
+
 .blog1-Footer-each-list-three {
     color: #fff;
     font-family: "Roboto",Sans-serif;
@@ -61,11 +63,31 @@
  
 .blog-Footer-end-container {
     color: rgba(255,255,255,0.32);
-    margin-top: 150px;
-    padding-left: 100px;
-    background-color: #021729 ;
-    height: 50px;
+    margin-top: 120px;
+    padding-left: 500px;
+    /* background-color: #021729 ; */
+
 }
+.Footer-nav-links:hover {
+    color: #fff;
+}
+.Footer-blog-icons {
+    display: flex;
+    
+}
+.blog-footer-social-media-icon {
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.metro-blog-footer {
+    color: #7A7A7A;
+}
+.metro-blog-footer:hover {
+    color: #fff;
+}
+
 
 
 

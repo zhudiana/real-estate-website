@@ -22,47 +22,61 @@ const Footer2 = () => {
     <div className="Blog-Footer-two-container">
       <div className="Footer-two-list">
         <span>
-          <img
-            src="https://metropolitanaddis.com/wp-content/uploads/2021/12/logo_Çalışma-Yüzeyi-3-220x300.png"
-            className="Footer-image"
-          />
+          <Link to="/">
+            <img
+              src="https://metropolitanaddis.com/wp-content/uploads/2021/12/logo_Çalışma-Yüzeyi-3-220x300.png"
+              className="Footer-image"
+            />
+          </Link>
           <div className="blog-footer-social-media-icons">
-            <FaFacebook className="blog-footer-social-media-icon" />
-            <FaTwitter className="blog-footer-social-media-icon" />
-            <FaLinkedin className="blog-footer-social-media-icon" />
-            <FaInstagram className="blog-footer-social-media-icon" />
-            <FaYoutube className="blog-footer-social-media-icon" />
+            <ul className="Footer-blog-icons">
+              <li>
+                <FaFacebook className="blog-footer-social-media-icon" />
+              </li>
+              <li>
+                <FaTwitter className="blog-footer-social-media-icon" />
+              </li>
+              <li>
+                <FaLinkedin className="blog-footer-social-media-icon" />
+              </li>
+              <li>
+                <FaInstagram className="blog-footer-social-media-icon" />
+              </li>
+              <li>
+                <FaYoutube className="blog-footer-social-media-icon" />
+              </li>
+            </ul>
           </div>
         </span>
         <ul className="blog-Footer-list">
           <li className="blog1-Footer-each-list-two-header">Navigation</li>
           <li className="blog1-Footer-each-list-two">
-            <Link to="/" style={{ color: "#7A7A7A" }}>
+            <Link to="/" className="metro-blog-footer">
               Metropolitan Real Estate
             </Link>
           </li>
           <li className="blog1-Footer-each-list-two">
-            <Link to="/" style={{ color: "#7A7A7A" }}>
+            <Link to="/LuxuryLines" className="metro-blog-footer">
               Metropolitan Luxury Apartments
             </Link>
           </li>
           <li className="blog1-Footer-each-list-two">
-            <Link to="/" style={{ color: "#7A7A7A" }}>
+            <Link to="/StandardLines" className="metro-blog-footer">
               Standard Apartments by Metropolitan
             </Link>
           </li>
           <li className="blog1-Footer-each-list-two">
-            <Link to="/" style={{ color: "#7A7A7A" }}>
+            <Link to="/NewsBlogs" className="metro-blog-footer">
               News & Blogs
             </Link>
           </li>
           <li className="blog1-Footer-each-list-two">
-            <Link to="/" style={{ color: "#7A7A7A" }}>
+            <Link to="/" className="metro-blog-footer">
               About Metropolitan Real Estate
             </Link>
           </li>
           <li className="blog1-Footer-each-list-two">
-            <Link to="/" style={{ color: "#7A7A7A" }}>
+            <Link to="/ContactUs" className="metro-blog-footer">
               Contact Us
             </Link>
           </li>

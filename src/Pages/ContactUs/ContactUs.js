@@ -4,7 +4,7 @@ import NavBar from "../../Components/NavBar/NavBar";
 import logo from "../../Images/logo.png";
 import "./ContactUs.css";
 import { FaPhoneAlt, FaMailBulk } from "react-icons/fa";
-
+import GoogleMap from "./GoogleMap";
 const ContactUs = () => {
   return (
     <div className="Main-container">
@@ -144,6 +144,7 @@ const ContactUs = () => {
           </button>
         </div>
       </div>
+      <GoogleMap />
 
       <div className="Footer-container">
         <Footer2 />
