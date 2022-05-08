@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+// import "./AboutUsBlog.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            Westview Standard Apartments Facilities
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            November 9, 2020
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,7 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg"
         />
       </div>
 
@@ -85,76 +85,41 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
+          On Saturday, the 24th of October, we celebrated our Bole Midtown
+          apartment inauguration with our dear guests. Following the
+          well-received Sarbet gebrial Apartments, Metropolitan Real Estate
+          built and delivered Bole Midtown apartments on time.
         </p>
-
-        <h2 className="blog1-blog-title">
-          1. Know your options and credit score
-        </h2>
-        <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
-        </p>
-        <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
-        </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
-        <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
-        </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
-        <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
-        </p>
+        <img src="https://metropolitanaddis.com/wp-content/uploads/2020/11/Bole-Midtown-inaguration-320.jpg" />
+        <p className="blog1-each-blog">Bole Midtown inaguration 320</p>
 
         <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          Metropolitan real estate’s Bole midtown luxury apartments were
+          launched in 2018 and were fully delivered in 2020. The apartment
+          project is one of its kind in quality, location, accessibility,
+          features & an investment worth having. It features a gym & a clubhouse
+          on the terrace, ground & underground parking spaces, generator with a
+          regulator, water tankers, an Elevator, fire extinguishers, kitchen
+          cabinets with appliances, bedroom closets, and many more with 3 units
+          per floor & entirely consists of 27 units in general.
         </p>
+        <img src="https://metropolitanaddis.com/wp-content/uploads/2020/11/Bole-Midtown-inaguration-358.jpg" />
+        <p className="blog1-each-blog">Bole Midtown inaguration 358</p>
+
+        <p className="blog1-each-blog">
+          This is where we proved ourselves when we said “Built with quality,
+          delivered on time!”
+        </p>
+        <img src="https://metropolitanaddis.com/wp-content/uploads/2020/11/Bole-Midtown-inaguration-379.jpg" />
+        <p className="blog1-each-blog">Bole Midtown inaguration 379</p>
+
+        <p className="blog1-each-blog">
+          The program was a great opportunity to exchange experiences with
+          various media outlets, real estate investors, foreign and domestic
+          investors, and people planning to buy an apartment in the future.
+        </p>
+        <img src="https://metropolitanaddis.com/wp-content/uploads/2020/12/Bole-Midtown-inaguration-448.jpg" />
+        <p className="blog1-each-blog">Bole Midtown inaguration 448</p>
       </div>
 
       {/* form */}
@@ -202,7 +167,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +178,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +271,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+import "./LuxuryLinesBlogs.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            How to buy an apartment in Addis Ababa, while living abroad?
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            September 3, 2020
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,7 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2020/09/1-3.jpg"
         />
       </div>
 
@@ -85,75 +85,79 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
+          Most Ethiopian Diasporas desire to own a property in Addis Ababa.
+          While living abroad, you may have different reasons to buy a property
+          in Addis Ababa for many reasons, real estate is a desirable form of
+          property to own: Whether it’s as an investment, for a loved one, a
+          pension, or simply somewhere to hang your hat when you retire. Here
+          are the things you need to consider before buying an apartment in
+          Addis Ababa.
         </p>
-
         <h2 className="blog1-blog-title">
-          1. Know your options and credit score
+          Be reasonable and look for long-term profitability
         </h2>
         <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
+          When you think of buying an apartment, your focus should be on long
+          term profitability. Having an investment property, who doesn’t like to
+          earn 4000 dollars per month in Addis Ababa? Buying your dream
+          apartments from Metropolitan Real Estate in Addis Ababa is much easier
+          than you can imagine. First thing first you have to decide which type
+          of apartments you are looking for; be it luxury apartments
+          Metropolitan Bole Tower Luxury Apartments or standard apartments
+          Westview Standard Apartments don’t worry, we got your back.
         </p>
+        <img src="https://metropolitanaddis.com/wp-content/uploads/2020/06/Cam__3__1_-removebg-preview-1.png" />
         <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
+          Metropolitan Real Estate – Westview Standard Apartments
         </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
+        <h2 className="blog1-blog-title">
+          Ask for detail information before you buy apartments
+        </h2>
         <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
+          You are worried that reality and your expectation might not match? How
+          about your relatives or a good friend visit the site and showrooms of
+          the real estate you want to buy? In Metropolitan Real Estate, we
+          arrange a site visit for any person of your choice with our own
+          transportation so that it will help you make a better decision with
+          your family.
         </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
+        <img src="https://metropolitanaddis.com/wp-content/uploads/2020/09/1-3.jpg" />
         <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
+          Construction at Metropolitan Real Estate, Bole Tower Luxury
+          Apartments, a great investment opportunity at a premium location in
+          Addis Ababa
+        </p>
+        <h2 className="blog1-blog-title">
+          Understand the payment plan details of the Apartments
+        </h2>
+
+        <p className="blog1-each-blog">
+          Understanding the payment plan is an important step in buying an
+          apartment. Commonly here in Addis Ababa, there are 2 types of payments
+          that are common in Ethiopia. Down-payment plan: It is the most
+          conventional scheme where you have to pay up to 30% upfront, called
+          down payment, at the time of reservation and thereafter 70% of the
+          total cost within some time period as the construction progress grows.
         </p>
 
         <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          <b>Construction-linked plans:</b> As the name suggests, the payments
+          under this plan are linked to the construction stages. You have to pay
+          around 10%-30% of the purchase price within 2-3 days from booking and
+          the balance in installments on completing different construction
+          milestones.
+        </p>
+
+        <p className="blog1-each-blog">
+          Our payment plan is <b>Construction-linked plans</b>. Based on our
+          project progress. In addition to this, if you prefer to pay in US
+          Dollars, you will get a 15% discount from the total payment price.
+        </p>
+
+        <p className="blog1-each-blog">
+          If you’d like to <Link to="">find out more about our apartments</Link>{" "}
+          we are here to help you. Just fill out the form below and we will get
+          in touch with you promptly.
         </p>
       </div>
 
@@ -202,7 +206,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +217,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +310,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

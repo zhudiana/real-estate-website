@@ -155,9 +155,11 @@ const MetropolitanDifference = () => {
             </div>
           </div>
           <span>
-            <button className="elementor-text-btn-feature">
-              View Luxury Apartments
-            </button>
+            <Link to="/LuxuryLines">
+              <button className="elementor-text-btn-feature">
+                View Luxury Apartments
+              </button>
+            </Link>
           </span>
         </div>
 
@@ -264,9 +266,11 @@ const MetropolitanDifference = () => {
             </div>
           </div>
           <span>
-            <button className="elementor-text-btn-feature-body3">
-              View Luxury Apartments
-            </button>
+            <Link to="/StandardLines">
+              <button className="elementor-text-btn-feature-body3">
+                View Standard Apartments
+              </button>
+            </Link>
           </span>
         </div>
       </div>

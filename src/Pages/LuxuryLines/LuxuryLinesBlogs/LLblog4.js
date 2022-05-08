@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+import "./LuxuryLinesBlogs.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            What Makes a Luxurious Home Luxurious?
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            September 13, 2019
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,7 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2019/09/tower-bedroom.jpg"
         />
       </div>
 
@@ -85,75 +85,53 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
+          Luxurious home spaces are never a matter of accident. It takes a lot
+          of effort on the part of the homeowners, designers, and builders who
+          are involved in that project, to make sure that the entire property is
+          designed and built uniquely and that it has all the features which
+          will categorize it as a luxury home.
         </p>
-
-        <h2 className="blog1-blog-title">
-          1. Know your options and credit score
-        </h2>
+        <h2 className="blog1-blog-title">1. LOCATION</h2>
         <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
+          If you are building your own luxury home versus buying one off the
+          market, the location is one aspect you will have to take into account
+          even before you consider purchasing a certain home. Luxury living is a
+          lot about what’s in the house as well as what’s outside it; to a large
+          extent, the neighborhood that a house is in contributes to its luxury
+          quotient.
+        </p>
+        <h2 className="blog1-blog-title">2. AMENITIES</h2>
+        <p className="blog1-each-blog">
+          The amenities that a luxury home has to make the homeowners feel safe
+          and at peace. Some amenities found in luxury homes in Ethiopia like
+          Metropolitan are, terrace areas suited for different gatherings,
+          clubhouses, and gyms.
+        </p>
+        <h2 className="blog1-blog-title">3.LUXURY KITCHENS</h2>
+        <p className="blog1-each-blog">
+          These are uniquely-designed functional and attractive spaces, with
+          large countertops, the latest appliances, fittings, and finishes.
+          High-quality appliances, spacious storing spaces, and sleek cleaning
+          appliances are all part and parcel of having a luxury kitchen
         </p>
         <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
+          Metropolitan is known for its high-end fully furnished kitchen that
+          are designed to blend well with the overall feel of your luxury homes.
+          We build a luxurious kitchen area that is worth your hard-earned
+          money.
         </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
+        <h2 className="blog1-blog-title">4.TECHNOLOGY-DRIVEN</h2>
         <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
+          Most homes in this category are very technology-driven and have smart
+          appliances and fittings. They have electronics control for parts of
+          the house. All of Metropolitans luxury homes have 24/7 security
+          systems installed. It maximizes the safety of your home and also
+          increases your resale value.
         </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
         <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
-        </p>
-
-        <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          Metropolitan real estate PLC, is an American company, building quality
+          homes in Ethiopia to fulfill the needs of luxury house for sale in
+          Addis Ababa and all of Ethiopia as well
         </p>
       </div>
 
@@ -202,7 +180,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +191,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +284,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

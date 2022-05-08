@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+// import "./LuxuryLinesBlogs.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            Types Of Apartments In Ethiopia
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            September 2, 2018
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,7 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2019/07/294A8540-2000x1333.jpg"
         />
       </div>
 
@@ -85,75 +85,91 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
+          An apartment is a living space in residential real estate building.
+          The living space may consist of one room or a set of rooms, and it may
+          be one of a few or several such spaces in the building. In other
+          words, whether the inhabitants of the space rent or own it, it’s still
+          an apartment. This definition includes co-ops and condos.
         </p>
-
-        <h2 className="blog1-blog-title">
-          1. Know your options and credit score
-        </h2>
+        <h2 className="blog1-blog-title">Classic Six Apartment</h2>
         <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
+          A Classic 6 apartment consists of a living room, a formal dining room,
+          two full bedrooms, a separate kitchen, two full bathrooms and a third,
+          smaller bedroom, usually referred to as a “maid’s room,” located off
+          the kitchen. This room has a full or half bath of its own.
         </p>
+        <h2 className="blog1-blog-title">Classic Seven / Eight Apartment</h2>
         <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
+          A Classic 7 or Classic 8 Apartment is the same as a Classic 6, with
+          the addition of one or two more bedrooms. While a Classic Six is one
+          of the hardest to find, Classic Seven and Classic Eight apartments are
+          even rarer. A great example would Metropolitan’s Sarbet Gabriel
+          Apartment in Ethiopia. The units consist 5 bedrooms, 3.5 bathrooms
+          resting on a gracious 220 Sq m or, 3 bedrooms, 2 bathrooms resting on
+          180 Sqm
         </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
+        <h2 className="blog1-blog-title">Convertible Apartment</h2>
         <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
+          In a convertible apartment, the apartment layout can accommodate
+          adding another bedroom via the installation of a temporary pressurized
+          wall, usually in the living room, or by adding a door to a separate
+          dining room. A Convertible 2 implies a one bedroom that has been or
+          can be, changed to a two bedroom.
         </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
+        <h2 className="blog1-blog-title">Corporate Apartment</h2>
         <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
+          A corporate apartment, also known as a serviced apartment, refers to a
+          fully-furnished unit, rented for short term. And frequent users of
+          this are business travelers looking for an alternative to a hotel
+          looking for the better environments of an apartment.
         </p>
+        <h2 className="blog1-blog-title">Studio Apartment</h2>
 
         <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          A studio apartment is basically one room with a full bathroom and a
+          kitchen. It may have an alcove for dressing or dining. There are
+          different types of studio apartments. Like; Convertible studio: a
+          studio large enough to be able to create a walled-off space for
+          sleeping, Alcove studio: an area no more than one hundred square feet
+          located off of the living space(sometimes referred to as a half room)
+        </p>
+        <h2 className="blog1-blog-title">Garden Apartment</h2>
+        <p className="blog1-each-blog">
+          Garden apartments can refer to two types of homes. The first is a
+          cluster of low-rise buildings with open lawns, landscaping, and
+          pathways. The other definition of the garden apartment is one on the
+          ground floor that offers direct access to a backyard or garden.
+        </p>
+        <h2 className="blog1-blog-title">Loft Apartment</h2>
+        <p className="blog1-each-blog">
+          one large room, usually located in a building that was converted from
+          commercial to residential, with really high ceilings and windows. A
+          loft can present with anything from a studio to three bedrooms,
+          although this is usually specified at the outset
+        </p>
+        <h2 className="blog1-blog-title">Luxury Apartments</h2>
+        <p className="blog1-each-blog">
+          Luxury apartments can mean slightly different things in different
+          markets; however, in general, they refer to apartments with a higher
+          level of finishes, amenities, and services (and a higher price).
+        </p>
+        <h2 className="blog1-blog-title">Penthouse Apartment</h2>
+        <p className="blog1-each-blog">
+          The strict, architectural definition of a penthouse apartment is an
+          apartment actually built onto the rooftop, with setbacks providing
+          terraces with spectacular views. However, some buildings also
+          advertise penthouse apartments that are simply on one of the uppermost
+          floors.
+        </p>
+        <p className="blog1-each-blog">
+          In our newest luxury apartment for sale, there are various types and
+          sizes of apartments available for you. There are 15 units available
+          suited for a different lifestyle
+        </p>
+        <p className="blog1-each-blog">
+          Metropolitan real estate PLC, is an American company, building quality
+          homes in Ethiopia to fulfill the needs of luxury apartments in
+          ethiopia
         </p>
       </div>
 
@@ -202,7 +218,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +229,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +322,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

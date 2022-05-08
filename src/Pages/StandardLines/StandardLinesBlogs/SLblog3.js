@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+// import "./LuxuryLinesBlogs.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            Types Of Elevators – in Home For Sale in Addis Ababa
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            October 1, 2018
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,7 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2018/10/katalog-baski_Page_17.jpg"
         />
       </div>
 
@@ -85,75 +85,48 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
+          There is no doubt that the invention of the elevator has changed the
+          way we move and build home for sale in Addis Ababa. The earliest
+          elevator prototypes appeared in the Middle Ages, and from there, lifts
+          have evolved into the variety of elevator types that we rely on today.
         </p>
-
-        <h2 className="blog1-blog-title">
-          1. Know your options and credit score
-        </h2>
+        <h2 className="blog1-blog-title">Traction Elevators</h2>
         <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
+          Traction elevators are lifted by ropes which pass over a wheel that is
+          connected to a motor, usually an electric motor, that is located in a
+          machine room above the elevator shaft. These types of elevators are
+          most commonly used in mid and high rise application, as they can
+          attain quicker travel speeds than most other types of elevators. In
+          most cases, a counterweight is also used, so that the motor’s load is
+          eased. Traction elevators can be geared, or gearless, depending on
+          their application.
         </p>
+        <h2 className="blog1-blog-title">Machine-Room-Less Elevators</h2>
         <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
+          The increasingly popular machine-room-less (MRL) elevator is used most
+          often in mid-rise buildings up to or around 250 feet. These elevators
+          are also traction elevators, but instead of having a dedicated machine
+          room, the machinery necessary to operate the elevator sits at the top
+          of the shaft in an override space that is accessed through the top of
+          the elevator car, anytime repairs or maintenance is necessary. A
+          separate control room will be needed at the top floor as well and is
+          usually located within 150 feet of the elevator. These elevators
+          require less space than conventional traction elevators and are quite
+          energy efficient.
         </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
+        <h2 className="blog1-blog-title">Machine-Room-Less Elevators</h2>
         <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
-        </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
-        <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
+          Hydraulic elevators are supported from the bottom by a piston that
+          pushes the elevator upward as an electric motor pumps hydraulic fluid
+          into the piston. The elevator will descend as the fluid is released.
+          These types of elevators are more commonplace in low rise buildings as
+          they have a slower speed and can only reach about 80 feet.
         </p>
 
         <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          Metropolitan real estate PLC, is Real estate company, building quality
+          homes in Ethiopia to fulfill the needs of luxury home for sale in
+          Addis Ababa and all of Ethiopia as well
         </p>
       </div>
 
@@ -202,7 +175,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +186,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +279,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

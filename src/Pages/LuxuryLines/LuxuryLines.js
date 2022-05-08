@@ -138,87 +138,115 @@ const LuxuryLines = () => {
       <div className="LuxuryLines-body6-container">
         <ul className="more-luxury-homes-list">
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://metropolitanaddis.com/wp-content/uploads/2020/09/1-3.jpg"
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              HOW TO BUY AN APARTMENT IN ADDISABABA WHILE LIVING ABROAD?
-            </h3>
+            <Link to="/LLblog1">
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2020/09/1-3.jpg"
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                HOW TO BUY AN APARTMENT IN ADDISABABA WHILE LIVING ABROAD?
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Most Ethiopian Diasporas desire to own a property in Addis [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/LLblog1">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://metropolitanaddis.com/wp-content/uploads/2019/09/midtown-living-room.jpg"
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              4 THINGS THAT MAKE A MODERN APARTMENT "MODERN"
-            </h3>
+            <Link to="/LLblog2">
+              {" "}
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2019/09/midtown-living-room.jpg"
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                4 THINGS THAT MAKE A MODERN APARTMENT "MODERN"
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Most people who want a modern apartment in modern [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/LLblog2">
+              {" "}
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
         </ul>
         <ul className="more-luxury-homes-list">
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://metropolitanaddis.com/wp-content/uploads/2018/01/27a20f056588cad.png"
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              BATHROOMS OF METROPOLITAN SARBET GABRIEL APARTMENTS
-            </h3>
+            <Link to="/LLblog3">
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2018/01/27a20f056588cad.png"
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                BATHROOMS OF METROPOLITAN SARBET GABRIEL APARTMENTS
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Did you know the average person will spend at least [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/LLblog3">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://metropolitanaddis.com/wp-content/uploads/2019/09/tower-bedroom.jpg"
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              WHAT MAKES A LUXURIOUS HOME LUXURIOUS?
-            </h3>
+            <Link to="/LLblog4">
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2019/09/tower-bedroom.jpg"
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                WHAT MAKES A LUXURIOUS HOME LUXURIOUS?
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Luxurious home spaces are never a matter of accident. it [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/LLblog4">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>{" "}
           </li>
         </ul>
         <ul className="more-luxury-homes-list">
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://metropolitanaddis.com/wp-content/uploads/2019/09/Sarbet-living.jpg"
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              THE LUXURIOUS LIVING ROOM OF METROPOLITAN
-            </h3>
+            <Link to="/LLblog5">
+              {" "}
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2019/09/Sarbet-living.jpg"
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                THE LUXURIOUS LIVING ROOM OF METROPOLITAN
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Lying on a spacious area, Metropolitan brings you state of [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/LLblog5">
+              {" "}
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://metropolitanaddis.com/wp-content/uploads/2019/08/photo_2019-08-09_09-44-18.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              THE IMPORTANCE OF TIMELY DELIVERY FOR REAL ESTATE IN ETHIOPIA
-            </h3>
+            <Link to="/LLblog6">
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2019/08/photo_2019-08-09_09-44-18.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                THE IMPORTANCE OF TIMELY DELIVERY FOR REAL ESTATE IN ETHIOPIA
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               One of the most known problems in real estate in [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/LLblog6">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>{" "}
           </li>
         </ul>
       </div>

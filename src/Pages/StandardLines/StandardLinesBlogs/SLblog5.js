@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+// import "./LuxuryLinesBlogs.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            Westview Standard Apartments Brand new House for sale in Ethiopia
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            August 20, 2018
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,7 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__4.jpg"
         />
       </div>
 
@@ -85,75 +85,58 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
-        </p>
-
-        <h2 className="blog1-blog-title">
-          1. Know your options and credit score
-        </h2>
-        <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
-        </p>
-        <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
-        </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
-        <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
-        </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
-        <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
+          Metropolitan’s Westview Standard Apartments is one of the most
+          anticipated residential real estate projects of the region. It
+          combines the high-quality standards with unique architecture, best
+          material selection, and strictly supervised construction. Westview is
+          a perfect fit for those looking for western quality, comfort and
+          security.
         </p>
 
         <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          Site Supervision is done by Turkish Architects and Engineers. Quality
+          Construction by International standards and; architectural,
+          structural, mechanical, and electrical design are from İstanbul made
+          with European standards
+        </p>
+        <h2 className="blog1-blog-title">A Little Bit About The Location</h2>
+        <p className="blog1-each-blog">
+          Getting to and from the apartment won’t be troublesome because it is
+          located 2 minutes away from the ring road and 5 minutes from total
+          round about Schools, Hospitals, shopping centers are located in 1km
+          radius. Even better, services like supermarket, cafeteria, bakery,
+          barberry will be available on the apartment building
+        </p>
+        <h2 className="blog1-blog-title">Features</h2>
+        <p className="blog1-each-blog">
+          Security cameras can be a great resource to improve the safety and
+          security of your property. Getting the proper system set up in the
+          best locations is critical. Security cameras have many great
+          attributes, but can have limitations as well. To get maximum value
+          from your cameras, keep in mind you will need to use them in
+          conjunction with other security measures.Although water supply service
+          has a long history in Addis Ababa, going through an entire week or
+          even a month without water has become common in many areas of the
+          city. Metropolitan Real Estate once again raised the bar of luxury
+          living in Ethiopia by including private water well construction in its
+          brand new luxury house for sale in Ethiopia to solve the frequents
+          water supply issue in Addis.Living in an apartment complex is the most
+          convenient option for many urban dwellers. The advantages of living in
+          an apartment are many: Access to utilities and Additional facilities
+          such as 24-hour uninterrupted water and power supply.
+        </p>
+
+        <p className="blog1-each-blog">
+          our Diesel powered generator provides an uninterrupted power supply
+          for all apartment units including common areas An underground parking
+          garage has levels below the surface and none above ground. Most often
+          underground parking garages are located in city centers where there’s
+          not much space available to build a parking facility, but there is a
+          big need to build one.
+        </p>
+
+        <p className="blog1-each-blog">
+          A convenient parking area is available for all apartment dwellers.
         </p>
       </div>
 
@@ -202,7 +185,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +196,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +289,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

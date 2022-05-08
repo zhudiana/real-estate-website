@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+import "./LuxuryLinesBlogs.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            Bathrooms Of Metropolitan Sarbet Gabriel Apartments
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            September 17, 2019
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,7 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2018/01/27a20f056588cad.png"
         />
       </div>
 
@@ -85,75 +85,78 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
-        </p>
-
-        <h2 className="blog1-blog-title">
-          1. Know your options and credit score
-        </h2>
-        <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
+          Did you know the average person will spend at least 1.5 years of their
+          life, in the bathroom? The bathroom is more than just a maintenance
+          room for life where we, often-times, both start the day as well as end
+          the day. For many, their best ideas come to them in the shower. It’s
+          that sacred space where you can also rehearse that big presentation
+          you are giving later that day or even to prepare for your job
+          interview. There is no going around to the importance of the bathroom
+          and Metropolitan’s Sarbet Gabriel luxury Apartments has the most
+          amazing one in town.
         </p>
         <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
-        </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
-        <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
-        </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
-        <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
+          It starts from the ceramic material of which the room is built. 30cm
+          by 90cm area, and rectified edges, there is only 1 mm graph lining
+          between each ceramics. The material looks like regular marble but it’s
+          not in order to avoid the heavyweight and additional cost of marble.
         </p>
 
         <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          Metropolitan uses green gypsum boarding for all of its construction of
+          bathrooms. It is a water-resistant gypsum board that has been in the
+          industry for decades, and one of the more reliable gypsum board when
+          it comes to durability. The board is much thicker than the standard
+          drywall, it comes with a measurement of about half inch and 5/8
+          thickness compared to quarter-inch and half-inch thickness. The wax
+          that is filled on the board is what makes it thicker than the standard
+          board.
+        </p>
+        <p className="blog1-each-blog">
+          The mirror in the bathroom is not glued to the wall like other
+          bathrooms in most places, rather it is put 3 cm forward from the wall
+          in order to give it a better feeling and look. There is an additional
+          light fixture above the mirror and it is fixed so well that you don’t
+          see any cable or unnecessary stuff coming out. Also, all the towel
+          hangers and soft tissue hangers around the room are very well built.
+        </p>
+
+        <p className="blog1-each-blog">
+          It doesn’t matter how good of a material you use if your workmanship
+          is not right. The bathroom has a well-built sink and a well-crafted
+          cabinet underneath. Both the sink and the cabinet are built in the
+          wall. Both of them are of the brands NDF and Hafele, German and UK
+          brands.
+        </p>
+        <img src="https://metropolitanaddis.com/wp-content/uploads/2018/02/IMG_1551.jpg" />
+
+        <p className="blog1-each-blog">
+          When we come to the shower space, there is a nice square space, which
+          is kind of bored into the wall, where you can keep bottles of shampoos
+          and other bathroom accessories. The shower itself is made from
+          Materials in Turkey and it also has a facet fixed below. The ground
+          underneath has good isolation underneath so that water doesn’t drip
+          off to the rooms in the lower floor and above the isolation layer is a
+          natural travertine flooring floor from Turkey. There is also a
+          high-end rectangular grill drainage system laid on the floor.
+        </p>
+
+        <p className="blog1-each-blog">
+          The Toilet is also built in the wall and it has a nice modern look to
+          it. The tanker is behind the wall and there are two types of triggers
+          for flushing: one for a big flush of water and the other for a smaller
+          flush.
+        </p>
+
+        <p className="blog1-each-blog">
+          The bathrooms of Metro have a classic look and are quite eye-catching.
+          Built with the right materials, and a good choice of aesthetics, the
+          bathrooms surely define luxurious bathrooms.
+        </p>
+        <p className="blog1-each-blog">
+          Metropolitan real estate PLC, is an American company, building quality
+          homes in Ethiopia to fulfill the needs of luxury real estate for sale
+          in Addis Ababa and all of Ethiopia as well
         </p>
       </div>
 
@@ -202,7 +205,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +216,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +309,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

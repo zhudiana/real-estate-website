@@ -98,91 +98,116 @@ const StandardLines = () => {
       <div className="LuxuryLines-body6-container">
         <ul className="more-luxury-homes-list">
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1500,h_1125/https://metropolitanaddis.com/wp-content/uploads/2019/09/midtown-living-room.jpg"
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              4 THINGS THAT MAKE A MODERN APARTMENT "MODERN"
-            </h3>
+            <Link to="/SLblog1">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1500,h_1125/https://metropolitanaddis.com/wp-content/uploads/2019/09/midtown-living-room.jpg"
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                4 THINGS THAT MAKE A MODERN APARTMENT "MODERN"
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Luxurious home spaces are never a matter of accident. it [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/SLblog1">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200,h_750/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              WHAT ARE STANDARD APARTMENTS FOR SALE IN ETHIOPIA?
-            </h3>
+            <Link to="/SLblog2">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200,h_750/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__2.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                WHAT ARE STANDARD APARTMENTS FOR SALE IN ETHIOPIA?
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Luxurious home spaces are never a matter of accident. it [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
-          </li>
-        </ul>
-        <ul className="more-luxury-homes-list">
-          <li className="more-luxury-homes-each-list">
-            <img
-              src="https://metropolitanaddis.com/wp-content/uploads/2018/10/katalog-baski_Page_17.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              TYPES OF ELEVETORS-IN HOME FOR SALE IN ADDIS ABABA
-            </h3>
-            <p className="luxury-homes-paragraph">
-              Luxurious home spaces are never a matter of accident. it [...]
-            </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
-          </li>
-          <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2048,h_1365/https://metropolitanaddis.com/wp-content/uploads/2019/07/294A8540.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              TYPES OF APARTMENTS IN ETHIPIA
-            </h3>
-            <p className="luxury-homes-paragraph">
-              Luxurious home spaces are never a matter of accident. it [...]
-            </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/SLblog2">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
         </ul>
         <ul className="more-luxury-homes-list">
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1000,h_625/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__4.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              WESTVIEW STANDARD APARTMENT BRAND NEW HOUSE FOR SALE IN ETHIOPIA
-            </h3>
+            <Link to="/SLblog3">
+              <img
+                src="https://metropolitanaddis.com/wp-content/uploads/2018/10/katalog-baski_Page_17.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                TYPES OF ELEVETORS-IN HOME FOR SALE IN ADDIS ABABA
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Luxurious home spaces are never a matter of accident. it [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/SLblog3">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
           <li className="more-luxury-homes-each-list">
-            <img
-              src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_747,h_779/https://metropolitanaddis.com/wp-content/uploads/2019/08/park.jpg"
-              style={{ width: "400px", height: "300px" }}
-              className="luxury-homes-home-images"
-            />
-            <h3 className="luxury-homes-title">
-              TYPES OF PARKING SPACES IN LUXURY APARTMENTS
-            </h3>
+            <Link to="/SLblog4">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2048,h_1365/https://metropolitanaddis.com/wp-content/uploads/2019/07/294A8540.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                TYPES OF APARTMENTS IN ETHIPIA
+              </h3>
+            </Link>
             <p className="luxury-homes-paragraph">
               Luxurious home spaces are never a matter of accident. it [...]
             </p>
-            <button className="luxury-homes-read-more-btn">Read More</button>
+            <Link to="/SLblog4">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
+          </li>
+        </ul>
+        <ul className="more-luxury-homes-list">
+          <li className="more-luxury-homes-each-list">
+            <Link to="/SLblog5">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1000,h_625/https://metropolitanaddis.com/wp-content/uploads/2020/04/Cam__4.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                WESTVIEW STANDARD APARTMENT BRAND NEW HOUSE FOR SALE IN ETHIOPIA
+              </h3>
+            </Link>
+            <p className="luxury-homes-paragraph">
+              Luxurious home spaces are never a matter of accident. it [...]
+            </p>
+            <Link to="/SLblog5">
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
+          </li>
+          <li className="more-luxury-homes-each-list">
+            <Link to="/SLblog6">
+              <img
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_747,h_779/https://metropolitanaddis.com/wp-content/uploads/2019/08/park.jpg"
+                style={{ width: "400px", height: "300px" }}
+                className="luxury-homes-home-images"
+              />
+              <h3 className="luxury-homes-title">
+                TYPES OF PARKING SPACES IN LUXURY APARTMENTS
+              </h3>
+            </Link>
+            <p className="luxury-homes-paragraph">
+              Luxurious home spaces are never a matter of accident. it [...]
+            </p>
+            <Link to="/SLblog6">
+              {" "}
+              <button className="luxury-homes-read-more-btn">Read More</button>
+            </Link>
           </li>
         </ul>
       </div>

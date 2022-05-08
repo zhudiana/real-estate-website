@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+import "./LuxuryLinesBlogs.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            The Importance of Timely Delivery For Real Estate In Ethiopia
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            August 20, 2019
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,8 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2019/08/photo_2019-08-09_09-44-18.jpg"
+          style={{ height: "450px", width: "550px" }}
         />
       </div>
 
@@ -85,75 +86,75 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
+          One of the most known problems in real estate in Ethiopia is delaying
+          projects. Particularly of housing projects.
+        </p>
+        <p className="blog1-each-blog">
+          Delay in completing a project is definitely costly and today, it does
+          not burden the developer but customer and the general public. Real
+          estate companies are observed to take this chance to request more
+          money from the poor public or ask to forfeit the house for projects
+          that run for years more than they’re supposed to.
+        </p>
+
+        <p className="blog1-each-blog">
+          Recently, we asked our customers and social media followers to tell us
+          what they think the problems currently is with the real estate sector
+          in Ethiopia.
+        </p>
+        <p className="blog1-each-blog">
+          Some of the feedback we got sounded like, “Real estate companies in
+          Ethiopia have no commitment to finish on time and the don’t seem to
+          keep their promises”
         </p>
 
         <h2 className="blog1-blog-title">
-          1. Know your options and credit score
+          Why Do We Deliver Homes In Time you Ask?
+        </h2>
+        <h3 className="blog1-blog-title">Its right thing to do</h3>
+        <p className="blog1-each-blog">
+          We take the words we give you seriously. If we say we will deliver in
+          a certain time with a certain quality, we work tirelessly to keep our
+          promises and to give you the home that’s worth your hard-earned money.
+        </p>
+        <h2 className="blog1-blog-title">
+          Because We Deliver Only High-Quality Living Spaces
         </h2>
         <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
+          Construction delays are often a result of mismanagement and its
+          effects can extend do various aspects of the projects. One of which
+          being quality. Project delays compromise quality. As real estate
+          companies feel the pressure to adjust for the delayed time decisions
+          made on construction process will not be as high standard as the
+          original plan.
         </p>
         <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
+          Metropolitan is not one to do that which is why we work very hard to
+          nib the causes of delays in the bud as the projects go.
         </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
+        <h2 className="blog1-blog-title">
+          We don’t just talk the talk… We walk the walk too
+        </h2>
         <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
+          <b>Exhibit A</b>
         </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
+        <img src="https://www.metropolitanaddis.com/wp-content/uploads/2019/07/sarbet-1.jpg" />
         <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
+          Sarbet Gabriel Apartments built and delivered within 12 months as
+          promised
         </p>
-
         <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          <b>Exhibit B</b>
+        </p>
+        <img src="https://www.metropolitanaddis.com/wp-content/uploads/2019/08/photo_2019-08-15_16-47-32.jpg" />
+        <p className="blog1-each-blog">
+          Bole Midtown Luxury apartment in Bole, currently 70% complete, which
+          is ahead of schedule.
+        </p>
+        <p className="blog1-each-blog">
+          Metropolitan real estate PLC, is an American company, building quality
+          homes in Ethiopia to fulfill the needs of luxury house for sale in
+          Addis Ababa and all of Ethiopia as well
         </p>
       </div>
 
@@ -202,7 +203,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +214,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +307,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

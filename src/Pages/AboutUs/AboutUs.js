@@ -578,10 +578,6 @@ const AboutUs = () => {
               <button className="luxury-homes-read-more-btn">Read More</button>
             </Link>
           </li>
-
-          <li>
-            <button className="luxury-homes-read-more-btn">See More</button>
-          </li>
         </ul>
         <ul className="more-luxury-homes-list">
           {/* blog 3 */}

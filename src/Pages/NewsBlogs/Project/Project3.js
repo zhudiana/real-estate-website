@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+// import "./AboutUsBlog.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            Metropolitan Tower Events
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            October 3, 2019
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,8 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2019/07/WhatsApp-Image-2019-06-27-at-11.45.35-AM-768x768.jpeg"
+          style={{ height: "450px", width: "550px" }}
         />
       </div>
 
@@ -84,77 +85,54 @@ const Blog6 = () => {
 
       {/* blog */}
       <div className="blog1-blog">
-        <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
-        </p>
-
         <h2 className="blog1-blog-title">
-          1. Know your options and credit score
+          Metropolitan Tower Apartments Events
         </h2>
+        <p></p>
+        <h2 className="blog1-blog-title">Metropolitan Tower Launch Party</h2>
         <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
-        </p>
-        <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
-        </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
-        <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
-        </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
-        <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
+          Metropolitan tower launch party was organized as a celebration of the
+          launch of Metropolitan Tower Luxury Apartments. This networking party
+          was held at the beautiful and brand new Skylight hotel.
         </p>
 
         <p className="blog1-each-blog">
-          Let us connect today, on{" "}
-          <b>
-            <Link to="/" style={{ color: "#1b375d" }}>
-              Metropolitan Real estate
-            </Link>
-          </b>
-          , which has multiple ongoing projects such as Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Central Tower Luxury Apartments
-            </Link>
-          </b>{" "}
-          are around AU headquarters. Metropolitan{" "}
-          <b>
-            <Link to="" style={{ color: "#1b375d" }}>
-              Westview Standard Apartments
-            </Link>
-          </b>
-          is located at Total Soset Kuter Mazoriya and the{" "}
-          <b>Metropolitan Residence</b> located around Bole Main Road, In front
-          of Mega Building. contact us with the Ethiopian office: +251973404040
-          and the USA office: +1480 280 2242.
+          Ethiopian Skylight Hotel, which was launched in 2019, is located at
+          the heart of Addis Ababa, just five minutes away from Addis Ababa Bole
+          International Airport.
         </p>
+
+        <p className="blog1-each-blog">
+          Equipped with Original architecture, international standard and a
+          central location, Metropolitan Tower offers a quality of life
+          unparalleled in the Addis Ababa Market. A unique project, Metropolitan
+          tower is located in the heart of Bole and has carefully designed
+          apartments, club, gym and commercial areas.
+        </p>
+
+        <p className="blog1-each-blog">
+          Metropolitan tower launch party commenced at 5:00PM with opening
+          speeches from metropolitan’s management team. Our clients, and
+          partners were kind enough to accept our invitations and made the night
+          an unforgettable one.
+        </p>
+
+        <p className="blog1-each-blog">
+          The night then progressed to dinner and mingling accompanied by
+          marvelous live music.
+        </p>
+
+        <p className="blog1-each-blog">
+          We would like to take this chance to thank all our guest,
+          metropolitan’s staff and all our partners who were involved in making
+          this party happen. Cheers!
+        </p>
+        <p></p>
+        <img
+          src="https://metropolitanaddis.com/wp-content/uploads/2019/07/metropolian-bole-tower-300x192.png"
+          style={{ marginLeft: "220px" }}
+        />
+        <p></p>
       </div>
 
       {/* form */}
@@ -202,7 +180,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +191,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +284,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;

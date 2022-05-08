@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./AboutUsBlog.css";
+// import "./AboutUsBlog.css";
 import {
   FaFacebook,
   FaLinkedin,
@@ -11,9 +11,9 @@ import {
   FaClock,
   FaLocationArrow,
 } from "react-icons/fa";
-import AboutUsBlogFooter from "./Footer/AboutUsBlogFooter";
+import AboutUsBlogFooter from "../../AboutUs/AboutUsBlogs/Footer/AboutUsBlogFooter";
 
-const Blog6 = () => {
+const Blog1 = () => {
   return (
     <div className="blog1-main-container">
       <div className="blog1-header-content">
@@ -24,13 +24,13 @@ const Blog6 = () => {
         </div>
         <div className="blog1-header-text">
           <h1 className="blog1-header-content-text">
-            How to Afford Buying an Apartment in Ethiopia
+            Metropolitan Real Estate: Fight Against the COVID-19 Pandemic
           </h1>
           <span
             className="blog1-date
           "
           >
-            March 12, 2022
+            April 16, 2020
           </span>
           <Link to="/" style={{ textDecoration: "none" }}>
             <span
@@ -54,7 +54,7 @@ const Blog6 = () => {
       <div className="header-blog1-photo">
         <img
           className="blog1-image"
-          src="https://metropolitanaddis.com/wp-content/uploads/2022/03/affod.png"
+          src="https://metropolitanaddis.com/wp-content/uploads/2020/04/Kco6QKr6RemIQYj9qK0P-2000x1328.png"
         />
       </div>
 
@@ -85,50 +85,53 @@ const Blog6 = () => {
       {/* blog */}
       <div className="blog1-blog">
         <p className="blog1-each-blog">
-          Apartment buying hurdles exist — but research, creativity, and
-          flexibility will help you clear them. Apartment buyers today face
-          tough challenges. Apartment prices have soared; money doesn’t go as
-          far as it once did and rent is more expensive than in the past. How
-          are people today making such a <b>large purchase</b> despite these
-          hurdles? With more flexibility and a bit of financing creativity,
-          today’s buyers are finding ways to achieve <b>Apartment ownership</b>.
+          In COVID-19 Pandemic devastating and difficult time, it is crucial to
+          not only stay safe by looking after ourselves but to also look after
+          one another. We only got each other and no one else so it is extremely
+          important for any individual to be there for his/her community and
+          fellow Ethiopian comrades. We Ethiopians have a culture of helping and
+          supporting one another in times of need and despair. Therefore, let’s
+          all work together to live up to this and get through this tough time.
+        </p>
+        <p className="blog1-each-blog">
+          Metropolitan real estate, which offers luxurious yet modern homes in
+          the heart of Addis Ababa, have always been thinking high and beyond
+          and has been using this opportunity to provide for its community. As
+          of April 15th 2020, Metropolitan real estate has given away different
+          materials & equipments like that of food and cleaning products to bole
+          sub-city to enable people to protect them themselves and maintain a
+          good hygiene.
         </p>
 
-        <h2 className="blog1-blog-title">
-          1. Know your options and credit score
-        </h2>
         <p className="blog1-each-blog">
-          The first step to knowing if you can afford an{" "}
-          <b>Apartment in Ethiopia</b>
-          is figuring out what financing options are available to you, including
-          what opportunities you’re eligible for and how much you need and can
-          afford to put down upfront. Learning the minimum requirements required
-          by buyers and understanding your <b>credit score</b> are essential
-          starting points.
+          On the first round, the food and hygiene products our company has
+          donated is estimated nearly birr 100,000.00 worth of goods which were
+          given away. Making this pandemic a priority, the goods metropolitan
+          real estate has presented include rice, macaroni, oil, soap and big
+          water containers for the people living in bole sub-city.
         </p>
         <p className="blog1-each-blog">
-          Many Apartment shoppers aren’t sure how much they have to put down on,
-          what the seller-required minimum down payment will be, or what
-          programs are available to help with down payments. Before buyers start
-          to think about saving for an Apartment, they should know what their
-          <b>financial resources</b> are and if they are eligible to buy.
+          On the second round, metropolitan real estate has promised to provide
+          whatever is needed for our people based on the protection mechanism
+          decided upon by the sub-city as well as the city council of Addis
+          Ababa. Furthermore, our company has claimed to also to help out in
+          project sites found in other sub-cities and provide the same support.
         </p>
-        <h2 className="blog1-blog-title">2. Make enough money to save</h2>
+
         <p className="blog1-each-blog">
-          With fewer resources to pull from than their older, wealthier
-          counterparts, renters wanting to buy face tough financial headwinds.
-          While <b>households purchasing</b> Apartments are more likely to have
-          two incomes than renter households (and thus a higher median household
-          income combined), even two-income households struggle to afford to buy
-          in competitive markets.
-        </p>
-        <h2 className="blog1-blog-title">3. Save enough cash</h2>
-        <p className="blog1-each-blog">
-          One of the most daunting parts of home buying? The down payment.
-          Buyers are also getting creative about piecing together a down payment
-          from multiple sources. Buyers who get a <b>mortgage</b> also get help
-          in the form of gifts or loans from friends and family to come up with
-          a down payment.
+          Just like we share “one gebeta (One meal)”, we should all be able to
+          feed one another so no one does sleep with an empty stomach and
+          everyone has access to basic needs. This will not only help our
+          country fight this pandemic but also helps our people as well as our
+          country to grow and prosper. There are lots of people who lost their
+          jobs and have no source of income but most of all there are
+          economically weak and disabled people. Hence, bole sub-city
+          communication affairs office urges other companies and organizations
+          like that of us to take part in such type of activities and provide
+          what they possibly can for the respective economically weak and
+          disabled people existing in their area and fulfill their duty as
+          citizens. It doesn’t matter if you present the financial aid in cash
+          or in kind. What’s expected of you is to just give and nothing else.
         </p>
 
         <p className="blog1-each-blog">
@@ -202,7 +205,7 @@ const Blog6 = () => {
           <li>
             <div className="prev-arrow">
               <Link
-                to="/Blog5"
+                to="/Blog6"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 <FaArrowLeft className="arrow-icon" />
@@ -213,7 +216,7 @@ const Blog6 = () => {
           <li>
             <div className="next-arrow">
               <Link
-                to="/Blog1"
+                to="/Blog2"
                 style={{ textDecoration: "none", color: "#876718" }}
               >
                 Next &nbsp;
@@ -306,4 +309,4 @@ const Blog6 = () => {
   );
 };
 
-export default Blog6;
+export default Blog1;
